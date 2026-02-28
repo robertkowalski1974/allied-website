@@ -1,0 +1,28 @@
+company:
+  name: "Allied"
+  full_name: "Allied Group"
+  tagline: "Building Better. Together."
+
+contact:
+  name: "Ambrose Greham"
+  title: "Managing Director"
+  phone: "07450 649110"
+  email: "Ambrose@alliedlifting.co.uk"
+
+divisions:
+  lifting:
+    name: "Allied Lifting"
+    tagline: "Crane Operations & Lifting Services"
+  logistics:
+    name: "Allied Logistics"
+    tagline: "Construction Logistics Coordination"
+  scaffolding:
+    name: "Allied Scaffolding"
+    tagline: "Scaffolding Services"
+
+colors:
+  navy: "#1B365D"
+  gold: "#D4A843"
+  charcoal: "#2D2D2D"
+  light_grey: "#F5F5F5"
+  white: "#FFFFFF"

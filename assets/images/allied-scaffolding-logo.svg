@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+  <!-- Circle mark -->
+  <circle cx="200" cy="95" r="80" fill="#1B365D"/>
+  <circle cx="200" cy="95" r="68" fill="#FFFFFF"/>
+  <path fill-rule="evenodd" fill="#1B365D" d="
+    M 200,30 L 255,148 L 145,148 Z
+    M 200,66 L 217,102 L 183,102 Z
+    M 178,113 L 222,113 L 237,148 L 163,148 Z
+  "/>
+  <rect x="163" y="111" width="16" height="18" rx="1" fill="#1B365D"/>
+  <!-- Wordmark: ALLIED SCAFFOLDING -->
+  <text x="200" y="240" text-anchor="middle" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="700" font-style="italic" font-size="24" letter-spacing="0.1em" fill="#1B365D">ALLIED SCAFFOLDING</text>
+</svg>

@@ -1,0 +1,91 @@
+---
+pagetitle: "Allied Scaffolding | Scaffolding Services"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+![](/assets/images/allied-scaffolding-logo.svg){height="80" style="margin-bottom: 1.5rem; filter: brightness(0) invert(1);"}
+
+# Scaffolding Services
+
+Comprehensive scaffolding solutions integrated with Allied's lifting and logistics operations — delivering coordinated access, safety, and efficiency across your project.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Coming Soon -->
+::: {.section-padding .section-white}
+:::: {.container .text-center}
+
+## Coming Soon {.mb-2}
+
+::: {.gold-line-center}
+:::
+
+::: {style="max-width: 600px; margin: 0 auto;"}
+Allied Scaffolding is currently in development. We're building a scaffolding service that integrates seamlessly with our lifting and logistics divisions — giving you unified on-site coordination across all three disciplines.
+
+Register your interest and we'll keep you informed as we launch.
+:::
+
+::: {.mt-4}
+[Register Interest](/contact.html){.btn .btn-primary .me-3}
+[Back to Home](/){.btn .btn-outline-navy}
+:::
+
+::::
+:::
+
+<!-- What to Expect -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## What to Expect {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.service-card .text-center}
+#### Integrated Planning
+Scaffolding programmes coordinated with crane schedules and logistics plans from day one.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card .text-center}
+#### One Team On Site
+Allied scaffolders working alongside our crane operators and logistics coordinators — eliminating coordination gaps.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card .text-center}
+#### Safety First
+The same tier-one standards, competent operatives, and continuous improvement culture that defines all Allied divisions.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- CTA -->
+::: {.cta-banner}
+:::: {.container}
+
+## Interested in Allied Scaffolding?
+
+Get in touch to discuss how our integrated approach to scaffolding can benefit your project.
+
+[Contact Us](/contact.html){.btn .btn-primary .me-3}
+[07450 649110]{.btn .btn-outline-light}
+
+::::
+:::

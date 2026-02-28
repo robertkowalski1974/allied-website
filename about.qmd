@@ -1,0 +1,206 @@
+---
+pagetitle: "About | Allied Group"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+# About Allied
+
+One team. Three specialist divisions. A single commitment to safety, efficiency, and transparency across every project we serve.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Company Story -->
+::: {.section-padding .section-white}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-6}
+
+## Our Story {.mb-2}
+
+::: {.gold-line}
+:::
+
+Allied was founded on a simple idea: construction projects work better when the people managing your cranes, logistics, and scaffolding are working as one team — not three separate suppliers pointing fingers at each other.
+
+Starting with Allied Lifting, we built a reputation for safety, reliability, and competence across London's most demanding residential and commercial projects. Working with clients like Wates, we saw first-hand how fragmented on-site services create delays, communication gaps, and unnecessary cost.
+
+So we expanded. Allied Logistics brings technology-enabled construction logistics coordination. Allied Scaffolding completes the picture. Together, they form Allied Group — an integrated platform for on-site construction services.
+
+::::::
+:::::: {.col-lg-6}
+
+::: {.pillar-card .mb-3}
+**London-based** projects across residential, commercial, student accommodation, care homes, and major infrastructure.
+:::
+
+::: {.pillar-card .mb-3}
+**Tier one clients** including Wates Construction, Wates Residential, Paradigm, and major London developers.
+:::
+
+::: {.pillar-card}
+**Integrated operations** — the only provider offering crane, logistics, and scaffolding under unified management.
+:::
+
+::::::
+:::::
+::::
+:::
+
+<!-- Managing Director -->
+::: {.section-padding .section-grey}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-8 .mx-auto .text-center}
+
+## Leadership
+
+::: {.gold-line-center}
+:::
+
+### Ambrose Greham
+**Managing Director**
+
+Ambrose leads Allied Group with hands-on experience across crane operations, lifting management, and construction logistics. His direct relationship approach means clients deal with decision-makers, not middlemen — reducing downtime and keeping projects moving.
+
+::: {.mt-3}
+[07450 649110]{style="color: #1B365D; font-weight: 600;"} | [Ambrose@alliedlifting.co.uk]{style="color: #1B365D; font-weight: 600;"}
+:::
+
+::::::
+:::::
+::::
+:::
+
+<!-- Values -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Our Values {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.value-card}
+[**Safety**]{.value-icon}
+
+#### Safety
+Tier one standards on every site. HSE best practice, competent operatives, continuous training, and our shadow man programme ensure no corners are cut.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.value-card}
+[**Integration**]{.value-icon}
+
+#### Integration
+One team managing crane, logistics, and scaffolding. Single accountability eliminates the coordination gaps that cause delays.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.value-card}
+[**Technology**]{.value-icon}
+
+#### Technology
+Real-time dashboards, KPI tracking, 4D planning, and delivery management systems. Visibility that traditional operators cannot match.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.value-card}
+[**Sustainability**]{.value-icon}
+
+#### Sustainability
+Net Zero 2030 commitment. 60%+ carbon reduction through route optimisation and intelligent coordination.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.value-card}
+[**Transparency**]{.value-icon}
+
+#### Transparency
+KPI-based contracts with penalties for non-performance. We share the data openly because we stand behind our results.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.value-card}
+[**Flexibility**]{.value-icon}
+
+#### Flexibility
+Asset-light model means project-specific solutions. We adapt to your project, not the other way around.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- Three Divisions -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Our Divisions {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.division-card}
+![Allied Lifting](/assets/images/allied-lifting-logo.svg){height="60"}
+
+### Allied Lifting
+
+Tower cranes, mobile cranes, lifting management, specialist operatives, accessories, auditing, and 24/7 support.
+
+[View Division](/lifting/){.btn .btn-outline-navy .btn-sm}
+:::
+::::::
+:::::: {.col-md-4}
+::: {.division-card}
+![Allied Logistics](/assets/images/allied-logistics-logo.svg){height="60"}
+
+### Allied Logistics
+
+Traffic management, delivery coordination, site access, materials handling, 4D planning, and technology platform.
+
+[View Division](/logistics/){.btn .btn-outline-navy .btn-sm}
+:::
+::::::
+:::::: {.col-md-4}
+::: {.division-card}
+![Allied Scaffolding](/assets/images/allied-scaffolding-logo.svg){height="60"}
+
+### Allied Scaffolding
+
+Integrated scaffolding services coordinated with lifting and logistics operations. Coming soon.
+
+[View Division](/scaffolding/){.btn .btn-outline-navy .btn-sm}
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- CTA -->
+::: {.cta-banner}
+:::: {.container}
+
+## Work with Allied
+
+Get in touch to discuss how our integrated approach can streamline your next project.
+
+[Contact Us](/contact.html){.btn .btn-primary .me-3}
+[07450 649110]{.btn .btn-outline-light}
+
+::::
+:::

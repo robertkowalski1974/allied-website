@@ -1,0 +1,216 @@
+---
+pagetitle: "Services | Allied Group"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+# Our Services
+
+A complete range of on-site construction services — from crane operations and lifting management to logistics coordination and scaffolding — delivered by one integrated team.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Allied Lifting Services -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+::::: {.row .align-items-center .mb-4}
+:::::: {.col}
+![](/assets/images/allied-lifting-logo.svg){height="50"}
+
+## Lifting Services
+
+::: {.gold-line}
+:::
+::::::
+:::::
+
+::::: {.row .g-3}
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Tower Cranes
+Supply, erection, dismantling, floodlights, anti-collision systems
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Mobile Cranes
+Contract and mobile lifting for flexible requirements
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Spider Cranes & Forklifts
+Compact lifting for confined spaces and internal works
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Lifting Management
+Full management of all lifting operations on site
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Appointed Persons
+Qualified APs for lift planning and LOLER compliance
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Lifting Supervisors
+Experienced supervision of all lifting activities
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Slingers & Signallers
+CPCS/CSCS certified operatives for all slinging operations
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Lifting Accessories
+Chains, slings, shackles, beams, cages, skips, and more
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Auditing & 24/7 Support
+Equipment certification, inspections, and round-the-clock support
+:::
+::::::
+:::::
+
+::: {.mt-4}
+[View Allied Lifting](/lifting/){.btn .btn-outline-navy}
+:::
+
+::::
+:::
+
+<!-- Allied Logistics Services -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+::::: {.row .align-items-center .mb-4}
+:::::: {.col}
+![](/assets/images/allied-logistics-logo.svg){height="50"}
+
+## Logistics Services
+
+::: {.gold-line}
+:::
+::::::
+:::::
+
+::::: {.row .g-3}
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Traffic Management
+On-site traffic coordination and vehicle marshalling
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Delivery Coordination
+Technology-enabled scheduling and delivery management
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Site Access Management
+Traffic flow optimisation, gate ops, and access control
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Materials Handling
+End-to-end materials flow from delivery to point of use
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### 4D Logistics Planning
+BIM-integrated delivery scheduling and visualisation
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Technology Platform
+Real-time dashboards, KPI tracking, and carbon monitoring
+:::
+::::::
+:::::
+
+::: {.mt-4}
+[View Allied Logistics](/logistics/){.btn .btn-outline-navy}
+:::
+
+::::
+:::
+
+<!-- Allied Scaffolding Services -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+::::: {.row .align-items-center .mb-4}
+:::::: {.col}
+![](/assets/images/allied-scaffolding-logo.svg){height="50"}
+
+## Scaffolding Services
+
+::: {.gold-line}
+:::
+::::::
+:::::
+
+::::: {.row .g-3}
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Integrated Planning
+Scaffolding coordinated with crane and logistics schedules
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### One Team On Site
+Scaffolders working alongside lifting and logistics crews
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card}
+#### Safety First
+Tier one standards and competent operatives across all works
+:::
+::::::
+:::::
+
+::: {.mt-4 style="color: #999; font-style: italic;"}
+Allied Scaffolding is currently in development. [Register interest](/contact.html).
+:::
+
+::::
+:::
+
+<!-- CTA -->
+::: {.cta-banner}
+:::: {.container}
+
+## Need a tailored solution?
+
+We build service packages around your project's specific requirements. Get in touch to discuss.
+
+[Contact Us](/contact.html){.btn .btn-primary .me-3}
+[07450 649110]{.btn .btn-outline-light}
+
+::::
+:::

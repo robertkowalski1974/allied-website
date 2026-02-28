@@ -1,0 +1,25 @@
+---
+pagetitle: "Page Not Found | Allied"
+page-layout: custom
+toc: false
+title: "404"
+---
+
+::: {.section-padding .text-center style="min-height: 60vh; display: flex; align-items: center;"}
+:::: {.container}
+
+![](/assets/images/allied-icon.svg){height="80" style="margin-bottom: 2rem; opacity: 0.3;"}
+
+## Page Not Found {style="color: #1B365D;"}
+
+::: {.gold-line-center}
+:::
+
+::: {style="color: #666; max-width: 400px; margin: 0 auto 2rem;"}
+The page you're looking for doesn't exist or has been moved.
+:::
+
+[Back to Home](/){.btn .btn-primary}
+
+::::
+:::

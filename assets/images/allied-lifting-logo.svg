@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" width="340" height="260">
+  <!-- Circle mark -->
+  <circle cx="170" cy="95" r="80" fill="#1B365D"/>
+  <circle cx="170" cy="95" r="68" fill="#FFFFFF"/>
+  <path fill-rule="evenodd" fill="#1B365D" d="
+    M 170,30 L 225,148 L 115,148 Z
+    M 170,66 L 187,102 L 153,102 Z
+    M 148,113 L 192,113 L 207,148 L 133,148 Z
+  "/>
+  <rect x="133" y="111" width="16" height="18" rx="1" fill="#1B365D"/>
+  <!-- Wordmark: ALLIED LIFTING -->
+  <text x="170" y="240" text-anchor="middle" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="700" font-style="italic" font-size="28" letter-spacing="0.1em" fill="#1B365D">ALLIED LIFTING</text>
+</svg>

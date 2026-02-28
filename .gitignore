@@ -2,3 +2,5 @@ _site/
 .quarto/
 node_modules/
 .DS_Store
+
+/.quarto/

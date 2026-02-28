@@ -1,0 +1,593 @@
+/*-- scss:defaults --*/
+
+// Brand Colors
+$navy: #1B365D;
+$gold: #D4A843;
+$charcoal: #2D2D2D;
+$light-grey: #F5F5F5;
+
+// Bootstrap overrides
+$primary: $gold;
+$secondary: $navy;
+$body-color: $charcoal;
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$headings-font-family: 'Montserrat', $font-family-sans-serif;
+$headings-font-weight: 700;
+$font-size-base: 1rem;
+$h1-font-size: 3rem;
+$h2-font-size: 2.25rem;
+$h3-font-size: 1.5rem;
+$link-color: $navy;
+$border-radius: 0.25rem;
+
+// Navbar
+$navbar-dark-color: #FFFFFF;
+$navbar-dark-hover-color: $gold;
+$navbar-padding-y: 1rem;
+
+/*-- scss:rules --*/
+
+// ── General ──
+
+body {
+  overflow-x: hidden;
+}
+
+.page-layout-full .content {
+  padding: 0;
+  max-width: 100%;
+}
+
+// Remove default Quarto page margins for full-width layouts
+main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+// ── Navbar ──
+
+.navbar {
+  padding: 0.75rem 1.5rem;
+
+  .navbar-brand {
+    img {
+      height: 44px;
+    }
+  }
+}
+
+// Contact button in navbar
+.navbar-nav .nav-item:last-child .nav-link {
+  background-color: $gold;
+  color: $navy !important;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem !important;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin-left: 0.5rem;
+
+  &:hover {
+    background-color: darken($gold, 8%);
+    transform: translateY(-1px);
+  }
+}
+
+// ── Hero Section ──
+
+.hero-section {
+  background: linear-gradient(135deg, $navy 0%, darken($navy, 12%) 100%);
+  color: #FFFFFF;
+  padding: 6rem 2rem 8rem;
+  position: relative;
+  overflow: hidden;
+
+  // Diagonal cut bottom
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    line-height: 1.8;
+  }
+
+  .gold-accent {
+    color: $gold;
+  }
+}
+
+.hero-section-division {
+  @extend .hero-section;
+  padding: 5rem 2rem 7rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+// ── Section Utilities ──
+
+.section-padding {
+  padding: 5rem 2rem;
+}
+
+.section-navy {
+  background-color: $navy;
+  color: #FFFFFF;
+
+  h2, h3, h4 {
+    color: #FFFFFF;
+  }
+}
+
+.section-grey {
+  background-color: $light-grey;
+}
+
+.section-white {
+  background-color: #FFFFFF;
+}
+
+// ── Gold Line Accent ──
+
+.gold-line {
+  width: 60px;
+  height: 3px;
+  background-color: $gold;
+  border: none;
+  margin: 1rem 0 2rem;
+}
+
+.gold-line-center {
+  @extend .gold-line;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// ── Buttons ──
+
+.btn-primary {
+  background-color: $gold;
+  border-color: $gold;
+  color: $navy;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: darken($gold, 8%);
+    border-color: darken($gold, 8%);
+    color: $navy;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.btn-outline-light {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #FFFFFF;
+    color: $navy;
+    transform: translateY(-2px);
+  }
+}
+
+.btn-outline-navy {
+  border: 2px solid $navy;
+  color: $navy;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background: transparent;
+
+  &:hover {
+    background-color: $navy;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+  }
+}
+
+// ── Division Card ──
+
+.division-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    border-color: $gold;
+  }
+
+  img {
+    height: 80px;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: $navy;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}
+
+// ── Service Card ──
+
+.service-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    border-left-color: $gold;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    color: $navy;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .service-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: $gold;
+  }
+}
+
+// ── Project Card ──
+
+.project-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 280px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+
+    .project-overlay {
+      background: linear-gradient(to top, rgba($navy, 0.95) 0%, rgba($navy, 0.3) 100%);
+    }
+  }
+
+  .project-image {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, $navy, darken($navy, 15%));
+  }
+
+  .project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+    background: linear-gradient(to top, rgba($navy, 0.9) 0%, transparent 100%);
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: #FFFFFF;
+  }
+
+  .project-location {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    span {
+      font-size: 0.7rem;
+      background: rgba(#FFFFFF, 0.15);
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+// ── Pillar Card ──
+
+.pillar-card {
+  padding: 2rem;
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+
+  .pillar-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: $gold;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    color: $navy;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+// ── CTA Banner ──
+
+.cta-banner {
+  background: linear-gradient(135deg, $navy 0%, darken($navy, 10%) 100%);
+  color: #FFFFFF;
+  padding: 5rem 2rem;
+  text-align: center;
+
+  h2 {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// ── Client Logos ──
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+
+  .client-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $navy;
+    }
+  }
+}
+
+// ── Value Card (for about/values) ──
+
+.value-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+
+  .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    color: $navy;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+// ── Contact Form ──
+
+.contact-form {
+  .form-control {
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease;
+
+    &:focus {
+      border-color: $gold;
+      box-shadow: 0 0 0 3px rgba($gold, 0.15);
+    }
+  }
+
+  textarea.form-control {
+    min-height: 150px;
+  }
+
+  label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: $navy;
+  }
+}
+
+// ── Brand Guidelines ──
+
+.color-swatch {
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-showcase {
+  background: $light-grey;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  img {
+    max-height: 100px;
+  }
+
+  &.dark-bg {
+    background: $navy;
+  }
+}
+
+// ── Responsive ──
+
+@media (max-width: 991px) {
+  .hero-section {
+    padding: 4rem 1.5rem 6rem;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .section-padding {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 3rem 1rem 5rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+    }
+
+    &::after {
+      height: 40px;
+    }
+  }
+
+  .hero-section-division {
+    padding: 3rem 1rem 5rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .section-padding {
+    padding: 2.5rem 1rem;
+  }
+
+  .client-logos {
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    height: 220px;
+  }
+}
+
+// ── Footer ──
+
+.nav-footer {
+  a {
+    color: rgba(255, 255, 255, 0.8) !important;
+
+    &:hover {
+      color: $gold !important;
+    }
+  }
+}
+
+// ── Hexagonal image frame (motif) ──
+
+.hex-frame {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  overflow: hidden;
+}
+
+// ── Tags ──
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 3px;
+  background: rgba($gold, 0.12);
+  color: $navy;
+  margin: 0.15rem;
+}

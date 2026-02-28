@@ -1,0 +1,72 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+
+website:
+  title: "Allied"
+  favicon: assets/images/favicon.svg
+  navbar:
+    background: "#1B365D"
+    foreground: "#FFFFFF"
+    logo: assets/images/allied-icon.svg
+    logo-alt: "Allied"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Divisions"
+        menu:
+          - text: "Allied Lifting"
+            href: lifting/index.qmd
+          - text: "Allied Logistics"
+            href: logistics/index.qmd
+          - text: "Allied Scaffolding"
+            href: scaffolding/index.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Brand Guidelines"
+        href: brand-guidelines.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    background: "#1B365D"
+    foreground: "#FFFFFF"
+    left: |
+      &copy; 2026 Allied Group. All rights reserved.
+    center:
+      - text: "About"
+        href: about.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right: |
+      07450 649110<br>
+      Ambrose@alliedlifting.co.uk
+
+  page-navigation: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/allied-theme.scss
+    toc: false
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+metadata-files:
+  - _variables.yml

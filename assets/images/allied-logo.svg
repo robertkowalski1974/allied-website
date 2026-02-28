@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <!-- Circle with navy background, white A inside -->
+  <circle cx="100" cy="95" r="80" fill="#1B365D"/>
+  <circle cx="100" cy="95" r="68" fill="#FFFFFF"/>
+  <path fill-rule="evenodd" fill="#1B365D" d="
+    M 100,30 L 155,148 L 45,148 Z
+    M 100,66 L 117,102 L 83,102 Z
+    M 78,113 L 122,113 L 137,148 L 63,148 Z
+  "/>
+  <rect x="63" y="111" width="16" height="18" rx="1" fill="#1B365D"/>
+  <!-- Wordmark: ALLIED -->
+  <text x="100" y="240" text-anchor="middle" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="700" font-style="italic" font-size="30" letter-spacing="0.12em" fill="#1B365D">ALLIED</text>
+</svg>

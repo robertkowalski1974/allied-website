@@ -1,0 +1,317 @@
+---
+pagetitle: "Brand Guidelines | Allied Group"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+# Brand Guidelines
+
+The Allied identity system. Consistent use of these elements ensures the brand is recognisable and professional across all touchpoints.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Logo System -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Logo System {.mb-2}
+
+::: {.gold-line}
+:::
+
+The Allied identity is built around a shared brand mark — the stylised "A" in a circle — with division-specific wordmarks below.
+
+### Parent Brand
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-6}
+::: {.logo-showcase}
+![Allied Logo](/assets/images/allied-logo.svg){height="120"}
+
+**Allied** — Parent brand
+:::
+::::::
+:::::: {.col-md-6}
+::: {.logo-showcase .dark-bg}
+![Allied Logo Light](/assets/images/allied-logo-light.svg){height="120"}
+
+[**Allied** — Light variant for dark backgrounds]{style="color: #FFFFFF;"}
+:::
+::::::
+:::::
+
+### Division Logos
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.logo-showcase}
+![Allied Lifting](/assets/images/allied-lifting-logo.svg){height="100"}
+
+**Allied Lifting**
+:::
+::::::
+:::::: {.col-md-4}
+::: {.logo-showcase}
+![Allied Logistics](/assets/images/allied-logistics-logo.svg){height="100"}
+
+**Allied Logistics**
+:::
+::::::
+:::::: {.col-md-4}
+::: {.logo-showcase}
+![Allied Scaffolding](/assets/images/allied-scaffolding-logo.svg){height="100"}
+
+**Allied Scaffolding**
+:::
+::::::
+:::::
+
+### Icon Only
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.logo-showcase}
+![Allied Icon](/assets/images/allied-icon.svg){height="80"}
+
+**Icon mark** — For favicon, navbar, social media avatars
+:::
+::::::
+:::::
+
+### Logo Usage Rules
+
+- Always maintain clear space around the logo equal to the height of the "A" mark
+- Minimum size: 30px height for digital, 10mm for print
+- Never stretch, rotate, or alter the proportions of the logo
+- Never place the logo on busy or low-contrast backgrounds
+- Always use provided logo files — never recreate the mark
+
+::::
+:::
+
+<!-- Color Palette -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Colour Palette {.mb-2}
+
+::: {.gold-line}
+:::
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md .col-6}
+::: {.color-swatch style="background-color: #1B365D;"}
+:::
+
+**Primary Navy**
+`#1B365D`
+RGB: 27, 54, 93
+::::::
+:::::: {.col-md .col-6}
+::: {.color-swatch style="background-color: #D4A843;"}
+:::
+
+**Gold Accent**
+`#D4A843`
+RGB: 212, 168, 67
+::::::
+:::::: {.col-md .col-6}
+::: {.color-swatch style="background-color: #2D2D2D;"}
+:::
+
+**Charcoal**
+`#2D2D2D`
+RGB: 45, 45, 45
+::::::
+:::::: {.col-md .col-6}
+::: {.color-swatch style="background-color: #F5F5F5; border: 1px solid #ddd;"}
+:::
+
+**Light Grey**
+`#F5F5F5`
+RGB: 245, 245, 245
+::::::
+:::::: {.col-md .col-6}
+::: {.color-swatch style="background-color: #FFFFFF; border: 1px solid #ddd;"}
+:::
+
+**White**
+`#FFFFFF`
+RGB: 255, 255, 255
+::::::
+:::::
+
+### Colour Usage
+
+- **Primary Navy** — Backgrounds, headings, text, navbar, footer, hero sections
+- **Gold Accent** — CTAs, buttons, accent lines, highlights, hover states
+- **Charcoal** — Body text, secondary text
+- **Light Grey** — Alternate section backgrounds
+- **White** — Primary page backgrounds, text on dark backgrounds
+
+::::
+:::
+
+<!-- Typography -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Typography {.mb-2}
+
+::: {.gold-line}
+:::
+
+::::: {.row .g-5 .mt-3}
+:::::: {.col-md-6}
+
+### Montserrat {style="font-family: Montserrat, sans-serif;"}
+**Headings & Wordmarks**
+
+::: {style="font-family: Montserrat, sans-serif;"}
+[Aa Bb Cc Dd Ee Ff Gg]{style="font-size: 2rem; font-weight: 700;"}
+
+[Heading 1 — 3rem / 700]{style="font-size: 1.5rem; font-weight: 700; display: block; margin: 0.5rem 0;"}
+[Heading 2 — 2.25rem / 700]{style="font-size: 1.25rem; font-weight: 700; display: block; margin: 0.5rem 0;"}
+[Heading 3 — 1.5rem / 700]{style="font-size: 1.1rem; font-weight: 700; display: block; margin: 0.5rem 0;"}
+[*Logo wordmarks use Bold Italic*]{style="font-weight: 700; font-style: italic; display: block; margin: 0.5rem 0;"}
+:::
+
+**Weights used:** 600 (Semi-Bold), 700 (Bold)
+**Styles:** Regular, Italic (for logo wordmarks)
+
+::::::
+:::::: {.col-md-6}
+
+### Inter {style="font-family: Inter, sans-serif;"}
+**Body Text & UI**
+
+::: {style="font-family: Inter, sans-serif;"}
+[Aa Bb Cc Dd Ee Ff Gg]{style="font-size: 2rem; font-weight: 400;"}
+
+[Body text at 1rem / 400 weight for comfortable reading across long paragraphs and descriptive content.]{style="font-size: 1rem; font-weight: 400; display: block; margin: 0.5rem 0; line-height: 1.7;"}
+
+[**Medium weight (500)** for emphasis within body text, labels, and UI elements.]{style="font-size: 1rem; display: block; margin: 0.5rem 0;"}
+
+[**Semi-Bold (600)** for buttons, navigation, and strong emphasis.]{style="font-size: 1rem; display: block; margin: 0.5rem 0;"}
+:::
+
+**Weights used:** 400 (Regular), 500 (Medium), 600 (Semi-Bold)
+
+::::::
+:::::
+
+::::
+:::
+
+<!-- Design Motifs -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Design Motifs {.mb-2}
+
+::: {.gold-line}
+:::
+
+### Diagonal Cuts
+
+The diagonal cut is a signature brand element, used on hero sections and transitions between content areas. It creates visual energy and movement.
+
+::: {style="background: linear-gradient(135deg, #1B365D 0%, #0d1f38 100%); height: 120px; border-radius: 8px; position: relative; overflow: hidden; margin: 1.5rem 0;"}
+::: {style="position: absolute; bottom: 0; left: 0; width: 100%; height: 40px; background: #F5F5F5; clip-path: polygon(0 100%, 100% 0, 100% 100%);"}
+:::
+:::
+
+### Gold Accent Line
+
+A thin gold line used as a section divider and heading accent. Always 60px wide, 3px tall.
+
+::: {.gold-line .mt-3 .mb-4}
+:::
+
+### Hexagonal Image Frames
+
+Used for feature images in marketing materials. The hexagonal clip creates a distinctive frame that references construction and engineering geometry.
+
+::: {style="width: 200px; height: 200px; margin: 1.5rem 0;"}
+::: {.hex-frame style="width: 100%; height: 100%; background: linear-gradient(135deg, #1B365D, #D4A843);"}
+:::
+:::
+
+### Card Elevation & Hover
+
+Interactive cards use subtle shadow and lift on hover with a gold left border reveal.
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4}
+::: {.service-card}
+#### Example Card
+Cards have a subtle shadow at rest and lift with a gold left border on hover. Try hovering over this card.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- Division Identity -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Division Identity Rules {.mb-2}
+
+::: {.gold-line}
+:::
+
+All divisions share the same "A" brand mark, colour palette, typography, and design motifs. Division differentiation comes **only** through the wordmark text below the icon.
+
+### Consistent Elements (Never Change)
+
+- The stylised "A" icon geometry
+- The circular container around the "A"
+- Montserrat Bold Italic for wordmark text
+- Letter spacing and capitalization (all uppercase, tracked)
+- Brand colours (#1B365D, #D4A843)
+
+### Variable Elements
+
+- Wordmark text: "ALLIED", "ALLIED LIFTING", "ALLIED LOGISTICS", "ALLIED SCAFFOLDING"
+- Supporting descriptive tagline on division pages
+
+### Division Taglines
+
+- **Allied Lifting** — "Crane Operations & Lifting Services"
+- **Allied Logistics** — "Construction Logistics Coordination"
+- **Allied Scaffolding** — "Scaffolding Services"
+
+::::
+:::
+
+<!-- Photography Style -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Photography Style {.mb-2}
+
+::: {.gold-line}
+:::
+
+When selecting or commissioning photography for Allied materials:
+
+- **Construction in progress** — Active sites showing cranes, logistics operations, scaffolding
+- **Professional and clean** — Well-organised sites, proper PPE, clear skies where possible
+- **London skyline context** — Establishing shots that place projects in their urban setting
+- **People at work** — Operatives demonstrating competence, not posed shots
+- **Hexagonal framing** — Use the hex-frame motif for feature images in digital materials
+- **Colour treatment** — Slight desaturation for background images, full colour for hero/feature images
+- **Avoid** — Stock photography feel, empty sites, poor weather unless editorially relevant
+
+::::
+:::

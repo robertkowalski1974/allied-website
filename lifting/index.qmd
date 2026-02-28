@@ -1,0 +1,266 @@
+---
+pagetitle: "Allied Lifting | Crane Operations & Lifting Services"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+![](/assets/images/allied-lifting-logo.svg){height="80" style="margin-bottom: 1.5rem; filter: brightness(0) invert(1);"}
+
+# Crane Operations & Lifting Services
+
+Specialist lifting management for London's most demanding construction projects. From tower cranes to lifting accessories, we provide the complete lifting solution — with the operatives, planning, and 24/7 support to keep your project moving.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Services -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Our Services {.mb-2}
+
+::: {.gold-line}
+:::
+
+::::: {.row .g-4}
+:::::: {.col-md-4}
+::: {.service-card}
+#### Tower Cranes
+Supply, erection, and dismantling of tower cranes with option of painted client colours. Includes floodlights, anti-climb guards, anti-collision systems, aircraft warning lights, and anemometers.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Mobile Cranes
+Contract and mobile lifting services for projects requiring flexible crane solutions. Rapid deployment with experienced operators.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Spider Cranes & Forklifts
+Compact lifting solutions for confined spaces, internal works, and specialist applications where tower cranes cannot reach.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Lifting Management
+General management of all lifting operations on site. Ongoing adaptation of lifting plans and labour needs to match project progress.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Lifting Supervisors
+Experienced supervisors overseeing all lifting activities, ensuring compliance with regulations and maintaining safety standards across the site.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Slingers & Signallers
+Competent operatives for all slinging and signalling operations. All personnel hold current CPCS/CSCS cards with regular refresher training.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Appointed Persons
+Qualified Appointed Persons to plan and supervise all lifting operations, produce lift plans, and ensure compliance with LOLER regulations.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Lifting Accessories
+Complete range: chains, slings, shackles, lifting beams, goods cages, brick cages, cantidecks, hardydecks, lifting skips, mortar bins, block grabs, man riders, and rescue cages.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Auditing & Certification
+On-site certification and inspection of all equipment. Weekly lifting records, 6-monthly checks, and comprehensive auditing services.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### 24/7 Support
+Round-the-clock support management. Spares kept on site including chains, radios, and slings to minimise downtime.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Crane Rescue Training
+Specialist crane rescue kit, cages, and training for emergency situations. Ensuring your team is prepared for any eventuality.
+:::
+::::::
+:::::: {.col-md-4}
+::: {.service-card}
+#### Hoist Operations
+Experienced hoist operators and banksmen for passenger and materials hoists across all project types.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- Company Systems -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## How We Work {.mb-2}
+
+::: {.gold-line}
+:::
+
+::: {.mb-4}
+Our management systems are designed to maximise safety, efficiency, and transparency across every project.
+:::
+
+::::: {.row .g-4}
+:::::: {.col-md-6}
+
+::: {.service-card}
+#### Weekly Planning & Coordination
+
+- **Weekly Planning Boards** to plan ahead and coordinate lifting activities
+- **Weekly Crane Usage Charts** tracking utilisation and efficiency
+- **Weekly Crane Meetings** with all stakeholders
+- **Wind Boards** monitoring weather conditions and safe working limits
+- **Weekly Lifting Records** for full compliance documentation
+:::
+
+::::::
+:::::: {.col-md-6}
+
+::: {.service-card}
+#### People Development & Safety
+
+- **NVQ Progression** — refresher training and qualifications pathway
+- **Monthly Assessments** on all workers
+- **Shadow Man Programme** — operatives under one year shadow experienced colleagues until team-approved for independent work
+- **Incentive Awards** — slinger/operator of the month for best practice
+- **Safety Critical Medical** — yearly medicals for all operators
+:::
+
+::::::
+:::::
+
+::::
+:::
+
+<!-- Our Promise -->
+::: {.section-padding .section-navy}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-6}
+
+## Our Promise: Safety & Efficiency {style="color: #FFFFFF;"}
+
+::: {.gold-line}
+:::
+
+Every Allied Lifting project operates to the highest standards. We don't just meet compliance — we actively drive best practice across every site we serve.
+
+::::::
+:::::: {.col-lg-6}
+
+::::: {.row .g-3}
+:::::: {.col-6}
+::: {.pillar-card}
+[Tier One]{.pillar-number style="font-size: 1.5rem;"}
+
+Standard across all operations
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[HSE]{.pillar-number style="font-size: 1.5rem;"}
+
+Best practice on every site
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[Competent]{.pillar-number style="font-size: 1.5rem;"}
+
+Operatives with current certifications
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[Upskilling]{.pillar-number style="font-size: 1.5rem;"}
+
+Continuous development pathway
+:::
+::::::
+:::::
+
+::::::
+:::::
+::::
+:::
+
+<!-- Project Types -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+## Project Experience {.mb-2}
+
+::: {.gold-line}
+:::
+
+London-based projects across all major construction sectors:
+
+::::: {.row .g-3 .mt-3}
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**Residential & Luxury Houses**
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**Student Accommodation**
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**Care Homes**
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**High-End Apartments**
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**RC Frames & Steel Structures**
+:::
+::::::
+:::::: {.col-md-4 .col-6}
+::: {.service-card .text-center}
+**Commercial Units**
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- CTA -->
+::: {.cta-banner}
+:::: {.container}
+
+## Discuss your lifting requirements
+
+Whether you need a full lifting management package or specialist operatives for a single phase, we'll tailor a solution to your project.
+
+[Contact Us](/contact.html){.btn .btn-primary .me-3}
+[07450 649110]{.btn .btn-outline-light}
+
+::::
+:::

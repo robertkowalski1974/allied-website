@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- White circle -->
+  <circle cx="100" cy="100" r="88" fill="#FFFFFF"/>
+  <!-- Stylized A lettermark -->
+  <path fill-rule="evenodd" fill="#1B365D" d="
+    M 100,28 L 166,158 L 34,158 Z
+    M 100,68 L 119,108 L 81,108 Z
+    M 75,120 L 125,120 L 144,158 L 56,158 Z
+  "/>
+  <!-- Hook on left of crossbar -->
+  <rect x="56" y="118" width="18" height="22" rx="1" fill="#1B365D"/>
+</svg>

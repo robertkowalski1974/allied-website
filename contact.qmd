@@ -1,0 +1,140 @@
+---
+pagetitle: "Contact | Allied Group"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+# Get In Touch
+
+Whether you need a complete lifting management package, logistics coordination, or want to discuss your project requirements — we're here to help.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Contact Details + Form -->
+::: {.section-padding .section-white}
+:::: {.container}
+::::: {.row .g-5}
+
+<!-- Contact Info -->
+:::::: {.col-lg-5}
+
+## Contact Details {.mb-2}
+
+::: {.gold-line}
+:::
+
+### Ambrose Greham {.mt-4}
+**Managing Director**
+
+::: {.mt-3}
+**Phone**
+[07450 649110]{style="font-size: 1.25rem; font-weight: 600; color: #1B365D;"}
+:::
+
+::: {.mt-3}
+**Email**
+[Ambrose@alliedlifting.co.uk]{style="font-size: 1.1rem; font-weight: 500; color: #1B365D;"}
+:::
+
+::: {.mt-4 .pt-3 style="border-top: 1px solid #eee;"}
+
+### Our Divisions
+
+**Allied Lifting** — Crane operations & lifting services
+
+**Allied Logistics** — Construction logistics coordination
+
+**Allied Scaffolding** — Scaffolding services (coming soon)
+
+:::
+
+::::::
+
+<!-- Contact Form -->
+:::::: {.col-lg-7}
+
+## Send a Message {.mb-2}
+
+::: {.gold-line}
+:::
+
+::: {.contact-form}
+
+<form action="https://formspree.io/f/PLACEHOLDER" method="POST">
+
+<div class="mb-3">
+<label for="name" class="form-label">Your Name</label>
+<input type="text" class="form-control" id="name" name="name" required>
+</div>
+
+<div class="mb-3">
+<label for="email" class="form-label">Email Address</label>
+<input type="email" class="form-control" id="email" name="email" required>
+</div>
+
+<div class="mb-3">
+<label for="phone" class="form-label">Phone Number</label>
+<input type="tel" class="form-control" id="phone" name="phone">
+</div>
+
+<div class="mb-3">
+<label for="company" class="form-label">Company</label>
+<input type="text" class="form-control" id="company" name="company">
+</div>
+
+<div class="mb-3">
+<label for="service" class="form-label">Service Interest</label>
+<select class="form-control" id="service" name="service">
+<option value="">Select a service...</option>
+<option value="lifting">Allied Lifting — Crane Operations</option>
+<option value="logistics">Allied Logistics — Logistics Coordination</option>
+<option value="scaffolding">Allied Scaffolding</option>
+<option value="integrated">Integrated Services Package</option>
+<option value="other">Other</option>
+</select>
+</div>
+
+<div class="mb-3">
+<label for="message" class="form-label">Message</label>
+<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary">Send Message</button>
+
+</form>
+
+:::
+
+::::::
+
+:::::
+::::
+:::
+
+<!-- Map Placeholder -->
+::: {.section-padding .section-grey}
+:::: {.container .text-center}
+
+## Serving London & Beyond {.mb-2}
+
+::: {.gold-line-center}
+:::
+
+::: {style="background: linear-gradient(135deg, #e8e8e8, #d0d0d0); border-radius: 8px; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;"}
+*Map placeholder — London and surrounding areas*
+:::
+
+::: {.mt-3 style="color: #666;"}
+Projects based in London with expanding coverage across the UK including Birmingham, Manchester, and Cardiff.
+:::
+
+::::
+:::

@@ -1,0 +1,304 @@
+---
+pagetitle: "Projects | Allied Group"
+page-layout: custom
+toc: false
+---
+
+::: {.hero-section-division}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-7}
+
+# Our Projects
+
+A portfolio of landmark London projects delivered for tier one contractors. Every project benefits from our integrated approach to lifting operations and on-site coordination.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Project Grid -->
+::: {.section-padding .section-white}
+:::: {.container}
+
+::::: {.row .g-4}
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image}
+:::
+::: {.project-overlay}
+#### Lillie Square
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Appointed Person]{.tag} [Tower Cranes]{.tag} [Lifting Management]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+:::
+::: {.project-overlay}
+#### Anthology Tottenham Hale
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Slingers]{.tag} [24/7 Support]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #1B365D);"}
+:::
+::: {.project-overlay}
+#### Parliament — Derby Gates
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Appointed Person]{.tag} [Lifting Supervisors]{.tag} [Auditing]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #1B365D, #2D2D2D);"}
+:::
+::: {.project-overlay}
+#### Parliament — Black Road Garden
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Lifting Management]{.tag} [Slingers]{.tag} [Accessories]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #1B365D);"}
+:::
+::: {.project-overlay}
+#### Parliament — Curtis Green Yard
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Appointed Person]{.tag} [24/7 Support]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #0d1f38);"}
+:::
+::: {.project-overlay}
+#### West Street Erith
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Lifting Management]{.tag} [Slingers]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+:::
+::: {.project-overlay}
+#### Park East Erith
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Appointed Person]{.tag} [Lifting Supervisors]{.tag} [Accessories]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #2D2D2D);"}
+:::
+::: {.project-overlay}
+#### Borough Markets
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Slingers]{.tag} [Auditing]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #1B365D);"}
+:::
+::: {.project-overlay}
+#### One Sherwood Street
+::: {.project-location}
+Piccadilly Circus, London
+:::
+::: {.project-tags}
+[Lifting Supervision]{.tag} [Auditing]{.tag} [24/7 Support]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #1B365D, #2D2D2D);"}
+:::
+::: {.project-overlay}
+#### Printworks
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Lifting Management]{.tag} [Appointed Person]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #1B365D);"}
+:::
+::: {.project-overlay}
+#### Channel View
+::: {.project-location}
+Cardiff
+:::
+::: {.project-tags}
+[Tower Cranes]{.tag} [Slingers]{.tag} [Accessories]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #0d1f38);"}
+:::
+::: {.project-overlay}
+#### Abbey Road Phase 3
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Lifting Management]{.tag} [24/7 Support]{.tag} [Auditing]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::: {.col-md-4}
+::: {.project-card}
+::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+:::
+::: {.project-overlay}
+#### 56 The Bishops Avenue
+::: {.project-location}
+London
+:::
+::: {.project-tags}
+[Appointed Person]{.tag} [Lifting Supervisors]{.tag} [Accessories]{.tag}
+:::
+:::
+:::
+::::::
+
+:::::
+
+::::
+:::
+
+<!-- Services on these sites -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Services Across Our Projects {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::: {.text-center .mb-4 style="color: #666;"}
+Every project is supported by Allied Lifting's full range of services, tailored to site-specific requirements.
+:::
+
+::::: {.row .g-3 .justify-content-center}
+:::::: {.col-auto}
+[Appointed Person]{.tag}
+::::::
+:::::: {.col-auto}
+[Tower Crane Operators]{.tag}
+::::::
+:::::: {.col-auto}
+[Lifting Supervisors]{.tag}
+::::::
+:::::: {.col-auto}
+[Slingers & Signallers]{.tag}
+::::::
+:::::: {.col-auto}
+[Dual Role Operatives]{.tag}
+::::::
+:::::: {.col-auto}
+[Auditing Services]{.tag}
+::::::
+:::::: {.col-auto}
+[Lifting Management]{.tag}
+::::::
+:::::: {.col-auto}
+[Accessories Supply]{.tag}
+::::::
+:::::: {.col-auto}
+[Radio Supply]{.tag}
+::::::
+:::::: {.col-auto}
+[24/7 Support]{.tag}
+::::::
+:::::: {.col-auto}
+[Lifting Plan Reviews]{.tag}
+::::::
+:::::
+
+::::
+:::
+
+<!-- CTA -->
+::: {.cta-banner}
+:::: {.container}
+
+## Start your project with Allied
+
+Get in touch to discuss how our integrated services can support your next build.
+
+[Contact Us](/contact.html){.btn .btn-primary .me-3}
+[07450 649110]{.btn .btn-outline-light}
+
+::::
+:::
