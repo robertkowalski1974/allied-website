@@ -4,88 +4,215 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-scaffolding.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 ![](/assets/images/allied-scaffolding-logo.svg){height="80" style="margin-bottom: 1.5rem; filter: brightness(0) invert(1);"}
 
 # Scaffolding Services
 
+::: {.hero-subtitle}
 Comprehensive scaffolding solutions integrated with Allied's lifting and logistics operations — delivering coordinated access, safety, and efficiency across your project.
+:::
 
 ::::::
 :::::
 ::::
 :::
 
-<!-- Coming Soon -->
+<!-- Introduction -->
+::: {.section-padding .section-white}
+:::: {.container}
+::::: {.row .align-items-center .g-5}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
+
+![Scaffolding operations](/assets/images/projects/project-07.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
+
+## Completing the Allied Platform
+
+::: {.gold-line}
+:::
+
+Allied Scaffolding is the final piece of our integrated on-site services platform. By bringing scaffolding under the same management team as our crane operations and logistics coordination, we eliminate the coordination gaps that cause programme delays on complex projects.
+
+We're building a scaffolding division that matches the safety standards, technology integration, and client focus that Allied Lifting and Allied Logistics are known for.
+
+::::::
+:::::
+::::
+:::
+
+<!-- Planned Services -->
+::: {.section-padding .section-warm}
+:::: {.container}
+
+## Planned Services {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::: {.text-center .mb-4 style="color: #6B7280; max-width: 600px; margin-left: auto; margin-right: auto;"}
+Allied Scaffolding will offer a complete range of scaffolding services, fully integrated with our lifting and logistics operations.
+:::
+
+::::: {.row .g-4 .mt-3 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### System Scaffolding
+Modern system scaffolding solutions for residential, commercial, and infrastructure projects. Fast erection, safe configuration, adaptable to complex geometries.
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Tube & Fitting
+Traditional tube and fitting scaffolding for bespoke access requirements. Experienced scaffolders delivering complex designs where system scaffolding cannot reach.
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Temporary Roofing & Encapsulation
+Weather protection and encapsulation solutions for projects requiring controlled environments. Integrated with crane operations for efficient installation.
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Design & Engineering
+In-house scaffold design capability with structural engineering sign-off. Coordinated with lifting plans to ensure safe and efficient erection sequences.
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Inspection & Compliance
+Regular scaffold inspections, NASC compliance, and handover documentation. All integrated into our digital reporting platform for full visibility.
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Integrated Planning
+Scaffolding programmes coordinated with crane schedules and logistics plans from day one — eliminating the coordination gaps that cause delays.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- The Integration Advantage -->
+::: {.section-padding .section-navy}
+:::: {.container}
+::::: {.row .align-items-center}
+:::::: {.col-lg-6}
+
+## The Integration Advantage {style="color: #FFFFFF;"}
+
+::: {.gold-line}
+:::
+
+When your scaffolding, cranes, and logistics are managed by separate suppliers, coordination gaps are inevitable. Materials arrive before scaffolding is ready. Crane time is wasted waiting for scaffold adaptation. Access routes conflict with delivery schedules.
+
+Allied Scaffolding eliminates these gaps by bringing scaffolding into the same integrated team that manages your crane operations and site logistics.
+
+::::::
+:::::: {.col-lg-6}
+
+::::: {.row .g-3}
+:::::: {.col-6}
+::: {.pillar-card}
+[One Team]{.pillar-number style="font-size: 1.3rem;"}
+
+Scaffolders, crane operators, and logistics coordinators working together
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[One Plan]{.pillar-number style="font-size: 1.3rem;"}
+
+Scaffold programme integrated with lifting and logistics schedules
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[One System]{.pillar-number style="font-size: 1.3rem;"}
+
+Real-time visibility across all three disciplines
+:::
+::::::
+:::::: {.col-6}
+::: {.pillar-card}
+[Zero Gaps]{.pillar-number style="font-size: 1.3rem;"}
+
+No finger-pointing between separate suppliers
+:::
+::::::
+:::::
+
+::::::
+:::::
+::::
+:::
+
+<!-- Register Interest -->
 ::: {.section-padding .section-white}
 :::: {.container .text-center}
 
-## Coming Soon {.mb-2}
+## Register Your Interest {.mb-2}
 
 ::: {.gold-line-center}
 :::
 
-::: {style="max-width: 600px; margin: 0 auto;"}
-Allied Scaffolding is currently in development. We're building a scaffolding service that integrates seamlessly with our lifting and logistics divisions — giving you unified on-site coordination across all three disciplines.
-
-Register your interest and we'll keep you informed as we launch.
+::: {style="max-width: 600px; margin: 0 auto; color: #6B7280;"}
+Allied Scaffolding is currently preparing for launch. Register your interest below and we'll keep you informed on progress, availability, and how our integrated approach can benefit your projects.
 :::
 
-::: {.mt-4}
-[Register Interest](/contact.html){.btn .btn-primary .me-3}
-[Back to Home](/){.btn .btn-outline-navy}
-:::
+::: {.register-interest-form .mt-4}
 
-::::
-:::
+<form action="https://formspree.io/f/PLACEHOLDER" method="POST">
 
-<!-- What to Expect -->
-::: {.section-padding .section-grey}
-:::: {.container}
+<div class="mb-3">
+<label for="ri-name" class="form-label" style="font-weight: 500; color: #1B365D;">Your Name</label>
+<input type="text" class="form-control" id="ri-name" name="name" required>
+</div>
 
-## What to Expect {.text-center .mb-2}
+<div class="mb-3">
+<label for="ri-email" class="form-label" style="font-weight: 500; color: #1B365D;">Email Address</label>
+<input type="email" class="form-control" id="ri-email" name="email" required>
+</div>
 
-::: {.gold-line-center}
-:::
+<div class="mb-3">
+<label for="ri-company" class="form-label" style="font-weight: 500; color: #1B365D;">Company</label>
+<input type="text" class="form-control" id="ri-company" name="company">
+</div>
 
-::::: {.row .g-4 .mt-3}
-:::::: {.col-md-4}
-::: {.service-card .text-center}
-#### Integrated Planning
-Scaffolding programmes coordinated with crane schedules and logistics plans from day one.
+<div class="mb-3">
+<label for="ri-message" class="form-label" style="font-weight: 500; color: #1B365D;">Tell us about your scaffolding needs</label>
+<textarea class="form-control" id="ri-message" name="message" rows="4" style="border: 1px solid #ddd; padding: 0.75rem 1rem; border-radius: 4px;"></textarea>
+</div>
+
+<input type="hidden" name="service" value="scaffolding-interest">
+<button type="submit" class="btn btn-primary">Register Interest</button>
+
+</form>
+
 :::
-::::::
-:::::: {.col-md-4}
-::: {.service-card .text-center}
-#### One Team On Site
-Allied scaffolders working alongside our crane operators and logistics coordinators — eliminating coordination gaps.
-:::
-::::::
-:::::: {.col-md-4}
-::: {.service-card .text-center}
-#### Safety First
-The same tier-one standards, competent operatives, and continuous improvement culture that defines all Allied divisions.
-:::
-::::::
-:::::
 
 ::::
 :::
 
 <!-- CTA -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Interested in Allied Scaffolding?
 
-Get in touch to discuss how our integrated approach to scaffolding can benefit your project.
+Get in touch to discuss how our integrated approach to scaffolding can benefit your project, or explore our established lifting and logistics services.
 
 [Contact Us](/contact.html){.btn .btn-primary .me-3}
-[07450 649110]{.btn .btn-outline-light}
+[View Our Services](/services.html){.btn .btn-outline-light}
 
 ::::
 :::

@@ -3,6 +3,11 @@ project:
   render:
     - "*.qmd"
     - "**/*.qmd"
+  resources:
+    - "assets/images/heroes/*"
+    - "assets/images/projects/*"
+    - "assets/images/clients/*"
+    - "assets/images/accreditations/*"
 
 website:
   title: "Allied"
@@ -67,6 +72,61 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Scroll-triggered entrance animations
+          var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+          document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            observer.observe(el);
+          });
+
+          // Animated counters
+          var counterObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                var counters = entry.target.querySelectorAll('.stat-number');
+                counters.forEach(function(counter) {
+                  var target = counter.getAttribute('data-target');
+                  var suffix = counter.getAttribute('data-suffix') || '';
+                  var prefix = counter.getAttribute('data-prefix') || '';
+                  var targetNum = parseInt(target);
+                  var duration = 2000;
+                  var start = 0;
+                  var startTime = null;
+
+                  function animate(currentTime) {
+                    if (!startTime) startTime = currentTime;
+                    var elapsed = currentTime - startTime;
+                    var progress = Math.min(elapsed / duration, 1);
+                    var eased = 1 - Math.pow(1 - progress, 3);
+                    var current = Math.floor(eased * targetNum);
+                    counter.textContent = prefix + current + suffix;
+                    if (progress < 1) {
+                      requestAnimationFrame(animate);
+                    } else {
+                      counter.textContent = prefix + targetNum + suffix;
+                    }
+                  }
+                  requestAnimationFrame(animate);
+                });
+                counterObserver.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.3 });
+
+          document.querySelectorAll('.stats-section').forEach(function(el) {
+            counterObserver.observe(el);
+          });
+        });
+        </script>
 
 metadata-files:
   - _variables.yml

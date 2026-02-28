@@ -4,29 +4,36 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-logistics.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 ![](/assets/images/allied-logistics-logo.svg){height="80" style="margin-bottom: 1.5rem; filter: brightness(0) invert(1);"}
 
 # Construction Logistics Coordination
 
+::: {.hero-subtitle}
 Technology-enabled logistics management that delivers visibility, flexibility, and sustainability — without the capital intensity of traditional consolidation centres. Purpose-built for projects requiring responsive, intelligent materials flow management.
+:::
 
 ::::::
 :::::
 ::::
 :::
 
-<!-- Core Value Proposition -->
+<!-- Feature Block: Asset-Light Advantage -->
 ::: {.section-padding .section-white}
 :::: {.container}
-::::: {.row .align-items-center}
-:::::: {.col-lg-6}
+::::: {.row .align-items-center .g-5}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
 
-## The Asset-Light Advantage {.mb-2}
+![Construction logistics](/assets/images/projects/project-06.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
+
+## The Asset-Light Advantage
 
 ::: {.gold-line}
 :::
@@ -36,27 +43,55 @@ Traditional construction logistics operators rely on expensive consolidation cen
 We integrate crane operations with intelligent logistics coordination, delivering project-specific solutions at 20-30% lower cost. Our technology platform gives you superior visibility while our asset-light model means we mobilise fast and adapt to your project's changing needs.
 
 ::::::
-:::::: {.col-lg-6}
-
-::: {.pillar-card .mb-3}
-**No Consolidation Centre Overhead** — Project-specific coordination without expensive fixed infrastructure. You pay for what you need, when you need it.
-:::
-
-::: {.pillar-card .mb-3}
-**Crane + Logistics Integration** — The only provider offering unified crane operations and logistics coordination. One team, one accountability.
-:::
-
-::: {.pillar-card}
-**Rapid Mobilisation** — On-site within weeks, not months. Our flexible model means we follow the work, establishing presence where projects are won.
-:::
-
-::::::
 :::::
 ::::
 :::
 
+<!-- Big Stat Callout -->
+::: {.section-padding .section-warm}
+:::: {.container}
+
+::::: {.row .g-4 .align-items-center}
+:::::: {.col-lg-4 .animate-on-scroll .fade-up}
+
+::: {.big-stat-callout style="background: #FFFFFF; border-radius: 8px; padding: 2.5rem;"}
+[20-30%]{.big-stat-number}
+
+::: {.big-stat-text}
+Lower total cost vs consolidation centre models
+:::
+:::
+
+::::::
+:::::: {.col-lg-4 .animate-on-scroll .fade-up}
+
+::: {.big-stat-callout style="background: #FFFFFF; border-radius: 8px; padding: 2.5rem;"}
+[60%+]{.big-stat-number}
+
+::: {.big-stat-text}
+Carbon reduction through route optimisation
+:::
+:::
+
+::::::
+:::::: {.col-lg-4 .animate-on-scroll .fade-up}
+
+::: {.big-stat-callout style="background: #FFFFFF; border-radius: 8px; padding: 2.5rem;"}
+[2030]{.big-stat-number}
+
+::: {.big-stat-text}
+Net Zero target commitment
+:::
+:::
+
+::::::
+:::::
+
+::::
+:::
+
 <!-- Services -->
-::: {.section-padding .section-grey}
+::: {.section-padding .section-white}
 :::: {.container}
 
 ## Our Services {.mb-2}
@@ -64,38 +99,38 @@ We integrate crane operations with intelligent logistics coordination, deliverin
 ::: {.gold-line}
 :::
 
-::::: {.row .g-4 .mt-2}
-:::::: {.col-md-4}
+::::: {.row .g-4 .mt-2 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Traffic Management & Marshalling
 Comprehensive on-site traffic coordination, vehicle marshalling, and pedestrian safety management. FORS-accredited operations ensuring safe movement of vehicles and personnel.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Delivery Coordination & Scheduling
 Technology-enabled delivery management system coordinating all inbound materials, plant, and equipment. Real-time scheduling to eliminate wait times and congestion.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Site Access Management
 Traffic flow optimisation for site ingress and egress. Managing vehicle movements, gate operations, and access control to maintain productivity and safety.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Materials Handling Coordination
 End-to-end materials flow management from delivery to point of use. Integrating crane operations with ground logistics for seamless materials movement.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### 4D Logistics Planning
 BIM-integrated logistics planning overlaying delivery schedules with construction programme. Visualise materials flow before it happens and optimise in advance.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Technology Platform
 Real-time dashboards, KPI tracking, delivery management system, and carbon monitoring. Giving you complete visibility of your site logistics operations.
@@ -169,8 +204,8 @@ Version 5 compliance ready
 ::: {.gold-line-center}
 :::
 
-::::: {.row .g-4 .mt-3}
-:::::: {.col-md-4}
+::::: {.row .g-4 .mt-3 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [01]{.pillar-number}
 
@@ -178,7 +213,7 @@ Version 5 compliance ready
 Unique combination impossible to replicate quickly. No competitor offers unified crane operations and logistics coordination.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [02]{.pillar-number}
 
@@ -186,7 +221,7 @@ Unique combination impossible to replicate quickly. No competitor offers unified
 Superior visibility platform addressing contractors' top concern at 20-30% lower total cost than consolidation centre models.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [03]{.pillar-number}
 
@@ -194,7 +229,7 @@ Superior visibility platform addressing contractors' top concern at 20-30% lower
 Project-specific solutions with rapid mobilisation. We adapt to client needs, not the other way around.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [04]{.pillar-number}
 
@@ -202,7 +237,7 @@ Project-specific solutions with rapid mobilisation. We adapt to client needs, no
 Net Zero 2030 commitment with 60%+ carbon reduction through route optimisation and intelligent coordination.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [05]{.pillar-number}
 
@@ -210,7 +245,7 @@ Net Zero 2030 commitment with 60%+ carbon reduction through route optimisation a
 KPI-based contracts with real-time dashboards and penalties for non-performance. Full accountability, no surprises.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [06]{.pillar-number}
 
@@ -224,7 +259,7 @@ Crane + traffic + delivery + materials handling under unified accountability. On
 :::
 
 <!-- KPI Dashboard -->
-::: {.section-padding .section-grey}
+::: {.section-padding .section-warm}
 :::: {.container}
 
 ## Performance You Can Measure {.mb-2}
@@ -235,28 +270,28 @@ Crane + traffic + delivery + materials handling under unified accountability. On
 Every Allied Logistics project includes real-time KPI dashboards giving you complete visibility of logistics performance. We don't hide behind estimates — we show you the data.
 
 ::::: {.row .g-4 .mt-3}
-:::::: {.col-md-3 .col-6}
+:::::: {.col-md-3 .col-6 .animate-on-scroll .fade-up}
 ::: {.pillar-card .text-center}
 **Delivery Compliance**
 
 On-time delivery rates tracked in real-time against schedule
 :::
 ::::::
-:::::: {.col-md-3 .col-6}
+:::::: {.col-md-3 .col-6 .animate-on-scroll .fade-up}
 ::: {.pillar-card .text-center}
 **Vehicle Turnaround**
 
 Minutes on site per delivery, targeting continuous improvement
 :::
 ::::::
-:::::: {.col-md-3 .col-6}
+:::::: {.col-md-3 .col-6 .animate-on-scroll .fade-up}
 ::: {.pillar-card .text-center}
 **Carbon Tracking**
 
 Per-delivery emissions measured and reported against baseline
 :::
 ::::::
-:::::: {.col-md-3 .col-6}
+:::::: {.col-md-3 .col-6 .animate-on-scroll .fade-up}
 ::: {.pillar-card .text-center}
 **Safety Incidents**
 
@@ -269,7 +304,7 @@ Zero-harm target with full incident tracking and reporting
 :::
 
 <!-- CTA -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Smarter logistics for your next project

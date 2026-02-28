@@ -4,14 +4,16 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-contact.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 # Get In Touch
 
+::: {.hero-subtitle}
 Whether you need a complete lifting management package, logistics coordination, or want to discuss your project requirements — we're here to help.
+:::
 
 ::::::
 :::::
@@ -24,7 +26,7 @@ Whether you need a complete lifting management package, logistics coordination, 
 ::::: {.row .g-5}
 
 <!-- Contact Info -->
-:::::: {.col-lg-5}
+:::::: {.col-lg-5 .animate-on-scroll .slide-in-left}
 
 ## Contact Details {.mb-2}
 
@@ -52,14 +54,14 @@ Whether you need a complete lifting management package, logistics coordination, 
 
 **Allied Logistics** — Construction logistics coordination
 
-**Allied Scaffolding** — Scaffolding services (coming soon)
+**Allied Scaffolding** — Scaffolding services (launching soon)
 
 :::
 
 ::::::
 
 <!-- Contact Form -->
-:::::: {.col-lg-7}
+:::::: {.col-lg-7 .animate-on-scroll .slide-in-right}
 
 ## Send a Message {.mb-2}
 
@@ -119,7 +121,7 @@ Whether you need a complete lifting management package, logistics coordination, 
 ::::
 :::
 
-<!-- Map Placeholder -->
+<!-- Map Section -->
 ::: {.section-padding .section-grey}
 :::: {.container .text-center}
 
@@ -128,11 +130,11 @@ Whether you need a complete lifting management package, logistics coordination, 
 ::: {.gold-line-center}
 :::
 
-::: {style="background: linear-gradient(135deg, #e8e8e8, #d0d0d0); border-radius: 8px; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;"}
-*Map placeholder — London and surrounding areas*
+::: {.map-container}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1709000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 :::
 
-::: {.mt-3 style="color: #666;"}
+::: {.mt-3 style="color: #6B7280;"}
 Projects based in London with expanding coverage across the UK including Birmingham, Manchester, and Cardiff.
 :::
 

@@ -4,14 +4,16 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-projects.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 # Our Projects
 
+::: {.hero-subtitle}
 A portfolio of landmark London projects delivered for tier one contractors. Every project benefits from our integrated approach to lifting operations and on-site coordination.
+:::
 
 ::::::
 :::::
@@ -22,11 +24,12 @@ A portfolio of landmark London projects delivered for tier one contractors. Ever
 ::: {.section-padding .section-white}
 :::: {.container}
 
-::::: {.row .g-4}
+::::: {.row .g-4 .stagger-children}
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
 ::: {.project-image}
+![](/assets/images/projects/project-01.jpg)
 :::
 ::: {.project-overlay}
 #### Lillie Square
@@ -40,9 +43,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+::: {.project-image}
+![](/assets/images/projects/project-02.jpg)
 :::
 ::: {.project-overlay}
 #### Anthology Tottenham Hale
@@ -56,9 +60,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #1B365D);"}
+::: {.project-image}
+![](/assets/images/projects/project-03.jpg)
 :::
 ::: {.project-overlay}
 #### Parliament — Derby Gates
@@ -72,9 +77,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #1B365D, #2D2D2D);"}
+::: {.project-image}
+![](/assets/images/projects/project-04.jpg)
 :::
 ::: {.project-overlay}
 #### Parliament — Black Road Garden
@@ -88,9 +94,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #1B365D);"}
+::: {.project-image}
+![](/assets/images/projects/project-05.jpg)
 :::
 ::: {.project-overlay}
 #### Parliament — Curtis Green Yard
@@ -104,9 +111,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #0d1f38);"}
+::: {.project-image}
+![](/assets/images/projects/project-06.jpg)
 :::
 ::: {.project-overlay}
 #### West Street Erith
@@ -120,9 +128,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+::: {.project-image}
+![](/assets/images/projects/project-07.jpg)
 :::
 ::: {.project-overlay}
 #### Park East Erith
@@ -136,9 +145,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #2D2D2D);"}
+::: {.project-image}
+![](/assets/images/projects/project-08.jpg)
 :::
 ::: {.project-overlay}
 #### Borough Markets
@@ -152,9 +162,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #1B365D);"}
+::: {.project-image}
+![](/assets/images/projects/project-09.jpg)
 :::
 ::: {.project-overlay}
 #### One Sherwood Street
@@ -168,9 +179,10 @@ Piccadilly Circus, London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #1B365D, #2D2D2D);"}
+::: {.project-image}
+![](/assets/images/projects/project-10.jpg)
 :::
 ::: {.project-overlay}
 #### Printworks
@@ -184,9 +196,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #0d1f38, #1B365D);"}
+::: {.project-image}
+![](/assets/images/projects/project-11.jpg)
 :::
 ::: {.project-overlay}
 #### Channel View
@@ -200,9 +213,10 @@ Cardiff
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #2D2D2D, #0d1f38);"}
+::: {.project-image}
+![](/assets/images/projects/project-12.jpg)
 :::
 ::: {.project-overlay}
 #### Abbey Road Phase 3
@@ -216,9 +230,10 @@ London
 :::
 ::::::
 
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
-::: {.project-image style="background: linear-gradient(135deg, #1B365D, #0d1f38);"}
+::: {.project-image}
+![](/assets/images/projects/project-13.jpg)
 :::
 ::: {.project-overlay}
 #### 56 The Bishops Avenue
@@ -238,7 +253,7 @@ London
 :::
 
 <!-- Services on these sites -->
-::: {.section-padding .section-grey}
+::: {.section-padding .section-warm}
 :::: {.container}
 
 ## Services Across Our Projects {.text-center .mb-2}
@@ -246,7 +261,7 @@ London
 ::: {.gold-line-center}
 :::
 
-::: {.text-center .mb-4 style="color: #666;"}
+::: {.text-center .mb-4 style="color: #6B7280;"}
 Every project is supported by Allied Lifting's full range of services, tailored to site-specific requirements.
 :::
 
@@ -290,7 +305,7 @@ Every project is supported by Allied Lifting's full range of services, tailored 
 :::
 
 <!-- CTA -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Start your project with Allied

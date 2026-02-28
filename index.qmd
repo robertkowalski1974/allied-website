@@ -4,14 +4,17 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section}
+<!-- Hero Section with Background Image -->
+::: {.hero-section style="background-image: linear-gradient(135deg, rgba(27,54,93,0.88) 0%, rgba(13,31,56,0.93) 100%), url('/assets/images/heroes/hero-main.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 # Building Better. [Together.]{.gold-accent}
 
+::: {.hero-subtitle}
 Allied integrates crane operations, construction logistics, and scaffolding services under one unified team — delivering the visibility, flexibility, and safety that complex projects demand.
+:::
 
 ::: {.mt-4}
 [Our Services](/services.html){.btn .btn-primary .me-3}
@@ -32,14 +35,17 @@ Allied integrates crane operations, construction logistics, and scaffolding serv
 ::: {.gold-line-center}
 :::
 
-::: {.text-center .mb-5 style="color: #666; max-width: 600px; margin-left: auto; margin-right: auto;"}
+::: {.text-center .mb-5 style="color: #6B7280; max-width: 600px; margin-left: auto; margin-right: auto;"}
 Three specialist divisions working as one integrated team across your project lifecycle.
 :::
 
-::::: {.row .g-4}
-:::::: {.col-md-4}
+::::: {.row .g-4 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.division-card}
-![Allied Lifting](/assets/images/allied-lifting-logo.svg){height="70"}
+![](/assets/images/heroes/hero-lifting.jpg){.division-card-image}
+
+::: {.division-card-body}
+![Allied Lifting](/assets/images/allied-lifting-logo.svg){.division-logo height="70"}
 
 ### Allied Lifting
 
@@ -47,10 +53,14 @@ Specialist crane operations and lifting management for London's most demanding c
 
 [Learn More](/lifting/){.btn .btn-outline-navy .btn-sm}
 :::
+:::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.division-card}
-![Allied Logistics](/assets/images/allied-logistics-logo.svg){height="70"}
+![](/assets/images/heroes/hero-logistics.jpg){.division-card-image}
+
+::: {.division-card-body}
+![Allied Logistics](/assets/images/allied-logistics-logo.svg){.division-logo height="70"}
 
 ### Allied Logistics
 
@@ -58,16 +68,21 @@ Technology-enabled construction logistics coordination. Traffic management, deli
 
 [Learn More](/logistics/){.btn .btn-outline-navy .btn-sm}
 :::
+:::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.division-card}
-![Allied Scaffolding](/assets/images/allied-scaffolding-logo.svg){height="70"}
+![](/assets/images/heroes/hero-scaffolding.jpg){.division-card-image}
+
+::: {.division-card-body}
+![Allied Scaffolding](/assets/images/allied-scaffolding-logo.svg){.division-logo height="70"}
 
 ### Allied Scaffolding
 
 Comprehensive scaffolding services integrated with our lifting and logistics operations for seamless on-site coordination.
 
-[Coming Soon]{.btn .btn-outline-navy .btn-sm style="opacity: 0.5; pointer-events: none;"}
+[Learn More](/scaffolding/){.btn .btn-outline-navy .btn-sm}
+:::
 :::
 ::::::
 :::::
@@ -75,11 +90,60 @@ Comprehensive scaffolding services integrated with our lifting and logistics ope
 ::::
 :::
 
-<!-- Core Value Proposition -->
-::: {.section-padding .section-grey}
+<!-- Statistics Section -->
+::: {.stats-section}
 :::: {.container}
-::::: {.row .align-items-center}
-:::::: {.col-lg-6}
+::::: {.row}
+:::::: {.col-md-3 .col-6}
+::: {.stat-item}
+[0]{.stat-number data-target="15" data-suffix="+"}
+
+::: {.stat-label}
+Years Experience
+:::
+:::
+::::::
+:::::: {.col-md-3 .col-6}
+::: {.stat-item}
+[0]{.stat-number data-target="200" data-suffix="+"}
+
+::: {.stat-label}
+Projects Delivered
+:::
+:::
+::::::
+:::::: {.col-md-3 .col-6}
+::: {.stat-item}
+[0]{.stat-number data-target="500" data-suffix="+"}
+
+::: {.stat-label}
+Operatives Deployed
+:::
+:::
+::::::
+:::::: {.col-md-3 .col-6}
+::: {.stat-item}
+[0]{.stat-number data-target="98" data-suffix="%"}
+
+::: {.stat-label}
+Client Satisfaction
+:::
+:::
+::::::
+:::::
+::::
+:::
+
+<!-- Integrated Approach — Asymmetric Layout -->
+::: {.section-padding .section-warm}
+:::: {.container}
+::::: {.row .align-items-center .g-5}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
+
+![Construction operations](/assets/images/projects/project-13.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
 
 ## The Integrated Approach
 
@@ -90,19 +154,12 @@ Most contractors juggle separate crane operators, logistics providers, and scaff
 
 Allied brings all three disciplines under unified management, giving you a single point of accountability for materials flow, lifting operations, and site access. The result: fewer delays, better coordination, and lower total cost.
 
-::::::
-:::::: {.col-lg-6}
+::: {.big-stat-callout style="background: #FFFFFF; border-radius: 8px; margin-top: 2rem;"}
+[20-30%]{.big-stat-number}
 
-::: {.pillar-card .mb-3}
-**Single Point of Contact** — One team managing crane, logistics, and scaffolding coordination eliminates finger-pointing and communication gaps.
+::: {.big-stat-text}
+Lower total cost with faster mobilisation
 :::
-
-::: {.pillar-card .mb-3}
-**Technology-Enabled Visibility** — Real-time dashboards, KPI tracking, and digital planning tools give you transparency that traditional operators cannot match.
-:::
-
-::: {.pillar-card}
-**Asset-Light Flexibility** — Project-specific solutions without the overhead of consolidation centres. 20-30% lower costs with faster mobilisation.
 :::
 
 ::::::
@@ -119,8 +176,8 @@ Allied brings all three disciplines under unified management, giving you a singl
 ::: {.gold-line-center}
 :::
 
-::::: {.row .g-4 .mt-3}
-:::::: {.col-md-4}
+::::: {.row .g-4 .mt-3 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [01]{.pillar-number}
 
@@ -128,7 +185,7 @@ Allied brings all three disciplines under unified management, giving you a singl
 Crane operations + logistics + scaffolding under unified management. No competitor offers this combination.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [02]{.pillar-number}
 
@@ -136,7 +193,7 @@ Crane operations + logistics + scaffolding under unified management. No competit
 Superior visibility platform addressing contractors' number one pain point — at 20-30% lower total cost.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [03]{.pillar-number}
 
@@ -144,7 +201,7 @@ Superior visibility platform addressing contractors' number one pain point — a
 Project-specific solutions with rapid mobilisation. We adapt to your needs, not the other way around.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [04]{.pillar-number}
 
@@ -152,7 +209,7 @@ Project-specific solutions with rapid mobilisation. We adapt to your needs, not 
 Net Zero 2030 commitment with 60%+ carbon reduction through route optimisation and intelligent coordination.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [05]{.pillar-number}
 
@@ -160,12 +217,69 @@ Net Zero 2030 commitment with 60%+ carbon reduction through route optimisation a
 KPI-based contracts with real-time dashboards. We put penalties on ourselves for non-performance.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.pillar-card}
 [06]{.pillar-number}
 
 #### Safety & Competence
 Tier one standards, HSE best practice, competent operatives, continuous upskilling, and shadow man programme.
+:::
+::::::
+:::::
+
+::::
+:::
+
+<!-- Testimonials -->
+::: {.testimonial-section}
+:::: {.container}
+
+## What Our Clients Say {.text-center .mb-2}
+
+::: {.gold-line-center}
+:::
+
+::::: {.row .g-4 .mt-3}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.testimonial-card}
+::: {.testimonial-text}
+Allied Lifting have been instrumental in keeping our programme on track. Their operatives are professional, safety-conscious, and always responsive to changing site requirements.
+:::
+
+::: {.testimonial-author}
+Senior Project Manager
+:::
+::: {.testimonial-role}
+Wates Construction
+:::
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.testimonial-card}
+::: {.testimonial-text}
+The integrated approach makes a real difference. Having one team managing cranes and logistics eliminates the coordination issues we see on other sites. They genuinely deliver on their promises.
+:::
+
+::: {.testimonial-author}
+Construction Director
+:::
+::: {.testimonial-role}
+Tier One Contractor
+:::
+:::
+::::::
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
+::: {.testimonial-card}
+::: {.testimonial-text}
+What sets Allied apart is transparency. The real-time dashboards give us visibility we've never had before. No surprises, no excuses — just data and delivery.
+:::
+
+::: {.testimonial-author}
+Operations Manager
+:::
+::: {.testimonial-role}
+London Developer
+:::
 :::
 ::::::
 :::::
@@ -182,10 +296,11 @@ Tier one standards, HSE best practice, competent operatives, continuous upskilli
 ::: {.gold-line-center}
 :::
 
-::::: {.row .g-4 .mt-3}
-:::::: {.col-md-4}
+::::: {.row .g-4 .mt-3 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
 ::: {.project-image}
+![](/assets/images/projects/project-01.jpg)
 :::
 ::: {.project-overlay}
 #### Lillie Square
@@ -198,9 +313,10 @@ London
 :::
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
 ::: {.project-image}
+![](/assets/images/projects/project-02.jpg)
 :::
 ::: {.project-overlay}
 #### Anthology Tottenham Hale
@@ -213,9 +329,10 @@ London
 :::
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.project-card}
 ::: {.project-image}
+![](/assets/images/projects/project-03.jpg)
 :::
 ::: {.project-overlay}
 #### One Sherwood Street
@@ -256,8 +373,26 @@ Piccadilly Circus, London
 ::::
 :::
 
+<!-- Accreditations -->
+::: {.section-padding .section-grey}
+:::: {.container}
+
+## Accreditations & Standards {.text-center .mb-4 style="color: #999; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.15em;"}
+
+::: {.accreditation-strip}
+[CITB]{.accreditation-badge}
+[CPCS]{.accreditation-badge}
+[FORS]{.accreditation-badge}
+[CLOCS]{.accreditation-badge}
+[Safe Contractor]{.accreditation-badge}
+[LOLER]{.accreditation-badge}
+:::
+
+::::
+:::
+
 <!-- CTA Banner -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Ready to discuss your project?

@@ -4,16 +4,45 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-lifting.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 ![](/assets/images/allied-lifting-logo.svg){height="80" style="margin-bottom: 1.5rem; filter: brightness(0) invert(1);"}
 
 # Crane Operations & Lifting Services
 
+::: {.hero-subtitle}
 Specialist lifting management for London's most demanding construction projects. From tower cranes to lifting accessories, we provide the complete lifting solution — with the operatives, planning, and 24/7 support to keep your project moving.
+:::
+
+::::::
+:::::
+::::
+:::
+
+<!-- Feature Block: What We Do -->
+::: {.section-padding .section-white}
+:::: {.container}
+::::: {.row .align-items-center .g-5}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
+
+![Crane operations on site](/assets/images/projects/project-05.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
+
+## The Complete Lifting Solution
+
+::: {.gold-line}
+:::
+
+Allied Lifting provides end-to-end crane operations and lifting management. We don't just supply cranes — we manage the entire lifting operation, from planning and supervision through to auditing and certification.
+
+Our team of experienced operatives, appointed persons, and lifting supervisors work as an extension of your site team, delivering safety, efficiency, and reliability across every lift.
+
+[Discuss Your Requirements](/contact.html){.btn .btn-primary .mt-3}
 
 ::::::
 :::::
@@ -21,7 +50,7 @@ Specialist lifting management for London's most demanding construction projects.
 :::
 
 <!-- Services -->
-::: {.section-padding .section-white}
+::: {.section-padding .section-warm}
 :::: {.container}
 
 ## Our Services {.mb-2}
@@ -29,74 +58,74 @@ Specialist lifting management for London's most demanding construction projects.
 ::: {.gold-line}
 :::
 
-::::: {.row .g-4}
-:::::: {.col-md-4}
+::::: {.row .g-4 .stagger-children}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Tower Cranes
 Supply, erection, and dismantling of tower cranes with option of painted client colours. Includes floodlights, anti-climb guards, anti-collision systems, aircraft warning lights, and anemometers.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Mobile Cranes
 Contract and mobile lifting services for projects requiring flexible crane solutions. Rapid deployment with experienced operators.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Spider Cranes & Forklifts
 Compact lifting solutions for confined spaces, internal works, and specialist applications where tower cranes cannot reach.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Management
 General management of all lifting operations on site. Ongoing adaptation of lifting plans and labour needs to match project progress.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Supervisors
 Experienced supervisors overseeing all lifting activities, ensuring compliance with regulations and maintaining safety standards across the site.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Slingers & Signallers
 Competent operatives for all slinging and signalling operations. All personnel hold current CPCS/CSCS cards with regular refresher training.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Appointed Persons
 Qualified Appointed Persons to plan and supervise all lifting operations, produce lift plans, and ensure compliance with LOLER regulations.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Accessories
 Complete range: chains, slings, shackles, lifting beams, goods cages, brick cages, cantidecks, hardydecks, lifting skips, mortar bins, block grabs, man riders, and rescue cages.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Auditing & Certification
 On-site certification and inspection of all equipment. Weekly lifting records, 6-monthly checks, and comprehensive auditing services.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### 24/7 Support
 Round-the-clock support management. Spares kept on site including chains, radios, and slings to minimise downtime.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Crane Rescue Training
 Specialist crane rescue kit, cages, and training for emergency situations. Ensuring your team is prepared for any eventuality.
 :::
 ::::::
-:::::: {.col-md-4}
+:::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Hoist Operations
 Experienced hoist operators and banksmen for passenger and materials hoists across all project types.
@@ -107,8 +136,8 @@ Experienced hoist operators and banksmen for passenger and materials hoists acro
 ::::
 :::
 
-<!-- Company Systems -->
-::: {.section-padding .section-grey}
+<!-- How We Work — Alternating Feature Blocks -->
+::: {.section-padding .section-white}
 :::: {.container}
 
 ## How We Work {.mb-2}
@@ -121,7 +150,7 @@ Our management systems are designed to maximise safety, efficiency, and transpar
 :::
 
 ::::: {.row .g-4}
-:::::: {.col-md-6}
+:::::: {.col-md-6 .animate-on-scroll .fade-up}
 
 ::: {.service-card}
 #### Weekly Planning & Coordination
@@ -134,7 +163,7 @@ Our management systems are designed to maximise safety, efficiency, and transpar
 :::
 
 ::::::
-:::::: {.col-md-6}
+:::::: {.col-md-6 .animate-on-scroll .fade-up}
 
 ::: {.service-card}
 #### People Development & Safety
@@ -204,7 +233,31 @@ Continuous development pathway
 ::::
 :::
 
-<!-- Project Types -->
+<!-- Accreditations -->
+::: {.section-padding .section-warm}
+:::: {.container}
+
+## Accreditations & Certifications {.text-center .mb-4}
+
+::: {.gold-line-center}
+:::
+
+::: {.text-center .mb-4 style="color: #6B7280;"}
+All Allied Lifting operations comply with the highest industry standards and certifications.
+:::
+
+::: {.accreditation-strip}
+[CPCS]{.accreditation-badge}
+[CSCS]{.accreditation-badge}
+[CITB]{.accreditation-badge}
+[LOLER]{.accreditation-badge}
+[Safe Contractor]{.accreditation-badge}
+:::
+
+::::
+:::
+
+<!-- Project Experience -->
 ::: {.section-padding .section-white}
 :::: {.container}
 
@@ -215,33 +268,33 @@ Continuous development pathway
 
 London-based projects across all major construction sectors:
 
-::::: {.row .g-3 .mt-3}
-:::::: {.col-md-4 .col-6}
+::::: {.row .g-3 .mt-3 .stagger-children}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **Residential & Luxury Houses**
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **Student Accommodation**
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **Care Homes**
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **High-End Apartments**
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **RC Frames & Steel Structures**
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card .text-center}
 **Commercial Units**
 :::
@@ -252,7 +305,7 @@ London-based projects across all major construction sectors:
 :::
 
 <!-- CTA -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Discuss your lifting requirements

@@ -5,6 +5,8 @@ $navy: #1B365D;
 $gold: #D4A843;
 $charcoal: #2D2D2D;
 $light-grey: #F5F5F5;
+$warm-grey: #6B7280;
+$gold-tint: #FBF5E8;
 
 // Bootstrap overrides
 $primary: $gold;
@@ -75,9 +77,11 @@ main.content {
 // ── Hero Section ──
 
 .hero-section {
-  background: linear-gradient(135deg, $navy 0%, darken($navy, 12%) 100%);
+  background: linear-gradient(135deg, rgba($navy, 0.85) 0%, rgba(darken($navy, 12%), 0.92) 100%);
+  background-size: cover;
+  background-position: center;
   color: #FFFFFF;
-  padding: 6rem 2rem 8rem;
+  padding: 8rem 2rem 10rem;
   position: relative;
   overflow: hidden;
 
@@ -94,14 +98,15 @@ main.content {
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3.75rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
+    line-height: 1.1;
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
-    opacity: 0.9;
+    font-size: 1.3rem;
+    opacity: 0.95;
     max-width: 600px;
     line-height: 1.8;
   }
@@ -112,11 +117,36 @@ main.content {
 }
 
 .hero-section-division {
-  @extend .hero-section;
-  padding: 5rem 2rem 7rem;
+  background: linear-gradient(135deg, rgba($navy, 0.85) 0%, rgba(darken($navy, 12%), 0.92) 100%);
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  padding: 6rem 2rem 8rem;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  }
 
   h1 {
     font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    line-height: 1.8;
   }
 }
 
@@ -143,20 +173,65 @@ main.content {
   background-color: #FFFFFF;
 }
 
+.section-warm {
+  background-color: $gold-tint;
+}
+
 // ── Gold Line Accent ──
 
 .gold-line {
-  width: 60px;
-  height: 3px;
-  background-color: $gold;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, $gold, lighten($gold, 15%));
   border: none;
   margin: 1rem 0 2rem;
+  border-radius: 2px;
 }
 
 .gold-line-center {
-  @extend .gold-line;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, $gold, lighten($gold, 15%));
+  border: none;
+  margin: 1rem auto 2rem;
+  border-radius: 2px;
+}
+
+// ── Scroll Animations ──
+
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.animate-on-scroll.fade-up {
+  transform: translateY(30px);
+}
+
+.animate-on-scroll.fade-in {
+  transform: none;
+}
+
+.animate-on-scroll.slide-in-left {
+  transform: translateX(-40px);
+}
+
+.animate-on-scroll.slide-in-right {
+  transform: translateX(40px);
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0);
+}
+
+// Staggered children animation
+.stagger-children .animate-on-scroll {
+  @for $i from 1 through 6 {
+    &:nth-child(#{$i}) {
+      transition-delay: #{($i - 1) * 0.1}s;
+    }
+  }
 }
 
 // ── Buttons ──
@@ -215,8 +290,7 @@ main.content {
 .division-card {
   background: #FFFFFF;
   border-radius: 8px;
-  padding: 2.5rem 2rem;
-  text-align: center;
+  overflow: hidden;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -228,9 +302,20 @@ main.content {
     border-color: $gold;
   }
 
-  img {
-    height: 80px;
-    margin-bottom: 1.5rem;
+  .division-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .division-card-body {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  img.division-logo {
+    height: 70px;
+    margin-bottom: 1rem;
   }
 
   h3 {
@@ -240,7 +325,7 @@ main.content {
   }
 
   p {
-    color: #666;
+    color: $warm-grey;
     font-size: 0.95rem;
     line-height: 1.7;
   }
@@ -274,7 +359,7 @@ main.content {
   }
 
   p {
-    color: #666;
+    color: $warm-grey;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 0;
@@ -303,12 +388,23 @@ main.content {
     .project-overlay {
       background: linear-gradient(to top, rgba($navy, 0.95) 0%, rgba($navy, 0.3) 100%);
     }
+
+    .project-image img {
+      transform: scale(1.05);
+    }
   }
 
   .project-image {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, $navy, darken($navy, 15%));
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
   }
 
   .project-overlay {
@@ -374,17 +470,158 @@ main.content {
   }
 
   p {
-    color: #666;
+    color: $warm-grey;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 0;
   }
 }
 
+// ── Statistics Section ──
+
+.stats-section {
+  background: linear-gradient(135deg, $navy 0%, darken($navy, 10%) 100%);
+  padding: 4rem 2rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $gold, lighten($gold, 20%), $gold);
+  }
+}
+
+.stat-item {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 1rem;
+
+  .stat-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: $gold;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+  }
+}
+
+// ── Testimonial Section ──
+
+.testimonial-section {
+  background-color: $gold-tint;
+  padding: 5rem 2rem;
+}
+
+.testimonial-card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  position: relative;
+
+  &::before {
+    content: '\201C';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: $gold;
+    line-height: 1;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: $charcoal;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+
+  .testimonial-author {
+    font-weight: 600;
+    color: $navy;
+    margin-bottom: 0.25rem;
+  }
+
+  .testimonial-role {
+    font-size: 0.85rem;
+    color: $warm-grey;
+  }
+}
+
+// ── Feature Block (alternating image + text) ──
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .feature-image {
+    flex: 1;
+    min-width: 0;
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .feature-content {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+// ── Big Stat Callout ──
+
+.big-stat-callout {
+  text-align: center;
+  padding: 3rem 2rem;
+
+  .big-stat-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: $gold;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .big-stat-text {
+    font-size: 1.2rem;
+    color: $navy;
+    font-weight: 600;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
 // ── CTA Banner ──
 
 .cta-banner {
-  background: linear-gradient(135deg, $navy 0%, darken($navy, 10%) 100%);
+  background: linear-gradient(135deg, rgba($navy, 0.9) 0%, rgba(darken($navy, 10%), 0.95) 100%);
+  background-size: cover;
+  background-position: center;
   color: #FFFFFF;
   padding: 5rem 2rem;
   text-align: center;
@@ -422,9 +659,50 @@ main.content {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     transition: color 0.3s ease;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: #FFFFFF;
 
     &:hover {
       color: $navy;
+      border-color: $gold;
+    }
+  }
+}
+
+// ── Accreditation Badges ──
+
+.accreditation-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 0;
+
+  .accreditation-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: $navy;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
     }
   }
 }
@@ -447,7 +725,7 @@ main.content {
   }
 
   p {
-    color: #666;
+    color: $warm-grey;
     font-size: 0.9rem;
     line-height: 1.6;
   }
@@ -506,10 +784,44 @@ main.content {
   }
 }
 
+// ── Map Placeholder Improved ──
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+    border: 0;
+  }
+}
+
+// ── Register Interest Form ──
+
+.register-interest-form {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 // ── Responsive ──
 
 @media (max-width: 991px) {
   .hero-section {
+    padding: 5rem 1.5rem 7rem;
+
+    h1 {
+      font-size: 2.75rem;
+    }
+  }
+
+  .hero-section-division {
     padding: 4rem 1.5rem 6rem;
 
     h1 {
@@ -518,16 +830,28 @@ main.content {
   }
 
   .section-padding {
-    padding: 3rem 1.5rem;
+    padding: 3.5rem 1.5rem;
+  }
+
+  .feature-block {
+    flex-direction: column;
+
+    &.reverse {
+      flex-direction: column;
+    }
+  }
+
+  .stat-item .stat-number {
+    font-size: 2.75rem;
   }
 }
 
 @media (max-width: 767px) {
   .hero-section {
-    padding: 3rem 1rem 5rem;
+    padding: 3.5rem 1rem 5.5rem;
 
     h1 {
-      font-size: 2rem;
+      font-size: 2.15rem;
     }
 
     .hero-subtitle {
@@ -545,6 +869,10 @@ main.content {
     h1 {
       font-size: 2rem;
     }
+
+    &::after {
+      height: 40px;
+    }
   }
 
   .section-padding {
@@ -552,11 +880,27 @@ main.content {
   }
 
   .client-logos {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .project-card {
     height: 220px;
+  }
+
+  .stat-item .stat-number {
+    font-size: 2.25rem;
+  }
+
+  .stats-section {
+    padding: 3rem 1rem;
+  }
+
+  .testimonial-card {
+    padding: 1.75rem;
+  }
+
+  .big-stat-callout .big-stat-number {
+    font-size: 3rem;
   }
 }
 

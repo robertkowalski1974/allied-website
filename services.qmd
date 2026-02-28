@@ -4,14 +4,16 @@ page-layout: custom
 toc: false
 ---
 
-::: {.hero-section-division}
+::: {.hero-section-division style="background-image: linear-gradient(135deg, rgba(27,54,93,0.85) 0%, rgba(13,31,56,0.92) 100%), url('/assets/images/heroes/hero-services.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 ::::: {.row .align-items-center}
-:::::: {.col-lg-7}
+:::::: {.col-lg-8}
 
 # Our Services
 
+::: {.hero-subtitle}
 A complete range of on-site construction services — from crane operations and lifting management to logistics coordination and scaffolding — delivered by one integrated team.
+:::
 
 ::::::
 :::::
@@ -22,67 +24,76 @@ A complete range of on-site construction services — from crane operations and 
 ::: {.section-padding .section-white}
 :::: {.container}
 
-::::: {.row .align-items-center .mb-4}
-:::::: {.col}
+::::: {.row .align-items-center .g-5 .mb-4}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
+
+![Lifting operations](/assets/images/projects/project-05.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
+
 ![](/assets/images/allied-lifting-logo.svg){height="50"}
 
 ## Lifting Services
 
 ::: {.gold-line}
 :::
+
+Complete crane operations and lifting management for London's most demanding projects. From tower cranes to specialist operatives, we manage the entire lifting operation.
+
 ::::::
 :::::
 
-::::: {.row .g-3}
-:::::: {.col-md-4 .col-6}
+::::: {.row .g-3 .stagger-children}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Tower Cranes
 Supply, erection, dismantling, floodlights, anti-collision systems
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Mobile Cranes
 Contract and mobile lifting for flexible requirements
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Spider Cranes & Forklifts
 Compact lifting for confined spaces and internal works
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Management
 Full management of all lifting operations on site
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Appointed Persons
 Qualified APs for lift planning and LOLER compliance
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Supervisors
 Experienced supervision of all lifting activities
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Slingers & Signallers
 CPCS/CSCS certified operatives for all slinging operations
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Lifting Accessories
 Chains, slings, shackles, beams, cages, skips, and more
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Auditing & 24/7 Support
 Equipment certification, inspections, and round-the-clock support
@@ -98,52 +109,61 @@ Equipment certification, inspections, and round-the-clock support
 :::
 
 <!-- Allied Logistics Services -->
-::: {.section-padding .section-grey}
+::: {.section-padding .section-warm}
 :::: {.container}
 
-::::: {.row .align-items-center .mb-4}
-:::::: {.col}
+::::: {.row .align-items-center .g-5 .mb-4}
+:::::: {.col-lg-6 .order-lg-2 .animate-on-scroll .slide-in-right}
+
+![Logistics coordination](/assets/images/projects/project-06.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .order-lg-1 .animate-on-scroll .slide-in-left}
+
 ![](/assets/images/allied-logistics-logo.svg){height="50"}
 
 ## Logistics Services
 
 ::: {.gold-line}
 :::
+
+Technology-enabled construction logistics coordination. Delivering superior visibility at 20-30% lower cost than traditional consolidation centre models.
+
 ::::::
 :::::
 
-::::: {.row .g-3}
-:::::: {.col-md-4 .col-6}
+::::: {.row .g-3 .stagger-children}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Traffic Management
 On-site traffic coordination and vehicle marshalling
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Delivery Coordination
 Technology-enabled scheduling and delivery management
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Site Access Management
 Traffic flow optimisation, gate ops, and access control
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Materials Handling
 End-to-end materials flow from delivery to point of use
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### 4D Logistics Planning
 BIM-integrated delivery scheduling and visualisation
 :::
 ::::::
-:::::: {.col-md-4 .col-6}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Technology Platform
 Real-time dashboards, KPI tracking, and carbon monitoring
@@ -162,47 +182,56 @@ Real-time dashboards, KPI tracking, and carbon monitoring
 ::: {.section-padding .section-white}
 :::: {.container}
 
-::::: {.row .align-items-center .mb-4}
-:::::: {.col}
+::::: {.row .align-items-center .g-5 .mb-4}
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-left}
+
+![Scaffolding services](/assets/images/projects/project-07.jpg){style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"}
+
+::::::
+:::::: {.col-lg-6 .animate-on-scroll .slide-in-right}
+
 ![](/assets/images/allied-scaffolding-logo.svg){height="50"}
 
 ## Scaffolding Services
 
 ::: {.gold-line}
 :::
+
+Comprehensive scaffolding solutions integrated with our lifting and logistics operations. Launching soon with the same standards of safety, technology, and integration that define all Allied divisions.
+
 ::::::
 :::::
 
-::::: {.row .g-3}
-:::::: {.col-md-4 .col-6}
+::::: {.row .g-3 .stagger-children}
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### System Scaffolding
+Modern system solutions for complex project geometries
+:::
+::::::
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
+::: {.service-card}
+#### Tube & Fitting
+Traditional scaffolding for bespoke access requirements
+:::
+::::::
+:::::: {.col-md-4 .col-6 .animate-on-scroll .fade-up}
 ::: {.service-card}
 #### Integrated Planning
-Scaffolding coordinated with crane and logistics schedules
-:::
-::::::
-:::::: {.col-md-4 .col-6}
-::: {.service-card}
-#### One Team On Site
-Scaffolders working alongside lifting and logistics crews
-:::
-::::::
-:::::: {.col-md-4 .col-6}
-::: {.service-card}
-#### Safety First
-Tier one standards and competent operatives across all works
+Scaffold programmes coordinated with crane and logistics
 :::
 ::::::
 :::::
 
-::: {.mt-4 style="color: #999; font-style: italic;"}
-Allied Scaffolding is currently in development. [Register interest](/contact.html).
+::: {.mt-4}
+[View Allied Scaffolding](/scaffolding/){.btn .btn-outline-navy}
 :::
 
 ::::
 :::
 
 <!-- CTA -->
-::: {.cta-banner}
+::: {.cta-banner style="background-image: linear-gradient(135deg, rgba(27,54,93,0.92) 0%, rgba(13,31,56,0.95) 100%), url('/assets/images/heroes/cta-bg.jpg'); background-size: cover; background-position: center;"}
 :::: {.container}
 
 ## Need a tailored solution?
