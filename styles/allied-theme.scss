@@ -644,25 +644,32 @@ main.content {
 // ── Client Logos ──
 
 .client-logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
   padding: 2rem 0;
 
+  // Quarto puts all spans in a single <p> — make it the flex container
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 0;
+  }
+
   .client-logo {
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: #999;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     transition: color 0.3s ease;
-    padding: 0.75rem 1.5rem;
+    padding: 0.6rem 1.25rem;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     background: #FFFFFF;
+    white-space: nowrap;
 
     &:hover {
       color: $navy;
@@ -678,31 +685,28 @@ main.content {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1.5rem 0;
 
   .accreditation-badge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background: #FFFFFF;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 0.75rem;
-    color: $navy;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    text-align: center;
-    padding: 0.75rem;
+    display: block;
     transition: all 0.3s ease;
+
+    img {
+      height: 60px;
+      width: auto;
+      filter: grayscale(20%);
+      opacity: 0.85;
+      transition: all 0.3s ease;
+    }
 
     &:hover {
       transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+      img {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
     }
   }
 }

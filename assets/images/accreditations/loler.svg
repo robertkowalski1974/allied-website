@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B365D"/>
+      <stop offset="100%" style="stop-color:#0D1F38"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M100 10 L180 40 L180 100 C180 145 145 175 100 190 C55 175 20 145 20 100 L20 40 Z"
+        fill="url(#shield)" stroke="#D4A843" stroke-width="3"/>
+  <!-- Inner border -->
+  <path d="M100 22 L170 48 L170 100 C170 140 140 167 100 180 C60 167 30 140 30 100 L30 48 Z"
+        fill="none" stroke="#D4A843" stroke-width="1" opacity="0.5"/>
+  <!-- Crane/hook icon -->
+  <g transform="translate(100,75)" fill="#D4A843">
+    <!-- Hook -->
+    <path d="M0,-30 L0,-15 C8,-15 12,-10 12,-3 C12,5 6,10 0,10 C-6,10 -12,5 -12,-3 C-12,-7 -10,-10 -7,-12"
+          fill="none" stroke="#D4A843" stroke-width="3" stroke-linecap="round"/>
+    <!-- Hook tip -->
+    <circle cx="-7" cy="-12" r="2"/>
+    <!-- Cable -->
+    <line x1="0" y1="-30" x2="0" y2="-42" stroke="#D4A843" stroke-width="2.5"/>
+    <!-- Beam -->
+    <line x1="-25" y1="-42" x2="25" y2="-42" stroke="#D4A843" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- LOLER text -->
+  <text x="100" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="26" fill="#FFFFFF" letter-spacing="3">LOLER</text>
+  <!-- Subtitle -->
+  <text x="100" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="400" font-size="9" fill="#D4A843">LIFTING OPERATIONS &amp;</text>
+  <text x="100" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="400" font-size="9" fill="#D4A843">LIFTING EQUIPMENT REGS</text>
+  <!-- Compliant badge -->
+  <text x="100" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="600" font-size="10" fill="#FFFFFF" letter-spacing="2">COMPLIANT</text>
+</svg>

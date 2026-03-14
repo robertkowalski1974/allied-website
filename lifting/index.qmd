@@ -247,11 +247,27 @@ All Allied Lifting operations comply with the highest industry standards and cer
 :::
 
 ::: {.accreditation-strip}
-[CPCS]{.accreditation-badge}
-[CSCS]{.accreditation-badge}
-[CITB]{.accreditation-badge}
-[LOLER]{.accreditation-badge}
-[Safe Contractor]{.accreditation-badge}
+::: {.accreditation-badge}
+![CPCS](/assets/images/accreditations/cpcs.png)
+:::
+::: {.accreditation-badge}
+![CSCS](/assets/images/accreditations/cscs.png)
+:::
+::: {.accreditation-badge}
+![CITB](/assets/images/accreditations/citb.png)
+:::
+::: {.accreditation-badge}
+![LOLER](/assets/images/accreditations/loler.svg)
+:::
+::: {.accreditation-badge}
+![SafeContractor](/assets/images/accreditations/safecontractor.svg)
+:::
+::: {.accreditation-badge}
+![Constructionline Gold](/assets/images/accreditations/constructionline.png)
+:::
+::: {.accreditation-badge}
+![SSIP](/assets/images/accreditations/ssip.png)
+:::
 :::
 
 ::::

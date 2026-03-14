@@ -1,13 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
-  <!-- Circle mark -->
-  <circle cx="190" cy="95" r="80" fill="#1B365D"/>
-  <circle cx="190" cy="95" r="68" fill="#FFFFFF"/>
+  <!-- Circle ring (donut shape using evenodd) -->
+  <path fill-rule="evenodd" fill="#1B365D" d="
+    M 190,15 A 80,80 0 1,1 190,175 A 80,80 0 1,1 190,15 Z
+    M 190,27 A 68,68 0 1,0 190,163 A 68,68 0 1,0 190,27 Z
+  "/>
+  <!-- A mark -->
   <path fill-rule="evenodd" fill="#1B365D" d="
     M 190,30 L 245,148 L 135,148 Z
     M 190,66 L 207,102 L 173,102 Z
     M 168,113 L 212,113 L 227,148 L 153,148 Z
   "/>
   <rect x="153" y="111" width="16" height="18" rx="1" fill="#1B365D"/>
-  <!-- Wordmark: ALLIED LOGISTICS -->
+  <!-- Wordmark -->
   <text x="190" y="240" text-anchor="middle" font-family="Montserrat, 'Arial Black', sans-serif" font-weight="700" font-style="italic" font-size="26" letter-spacing="0.1em" fill="#1B365D">ALLIED LOGISTICS</text>
 </svg>

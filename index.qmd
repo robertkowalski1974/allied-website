@@ -243,11 +243,11 @@ Tier one standards, HSE best practice, competent operatives, continuous upskilli
 :::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.testimonial-card}
 ::: {.testimonial-text}
-Allied Lifting have been instrumental in keeping our programme on track. Their operatives are professional, safety-conscious, and always responsive to changing site requirements.
+From first engagement the lifting management team were supportive, responsive, and quick to assist with site requirements. Lifting operations were carefully planned and professionally supervised, with a clear commitment to safety, compliance, and smooth coordination in a live environment. A trusted delivery partner we would confidently appoint again.
 :::
 
 ::: {.testimonial-author}
-Senior Project Manager
+Azir Ali, Construction Manager
 :::
 ::: {.testimonial-role}
 Wates Construction
@@ -257,28 +257,28 @@ Wates Construction
 :::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.testimonial-card}
 ::: {.testimonial-text}
-The integrated approach makes a real difference. Having one team managing cranes and logistics eliminates the coordination issues we see on other sites. They genuinely deliver on their promises.
+I have had the pleasure of working with Allied Lifting across two major construction projects, and their professionalism, reliability, and responsiveness have consistently been outstanding. Their expertise in lifting operations, combined with their collaborative approach, makes them a team I would highly recommend for any project requiring specialist lifting management.
 :::
 
 ::: {.testimonial-author}
-Construction Director
+Glen Rowden, Project Manager
 :::
 ::: {.testimonial-role}
-Tier One Contractor
+Wates Construction
 :::
 :::
 ::::::
 :::::: {.col-md-4 .animate-on-scroll .fade-up}
 ::: {.testimonial-card}
 ::: {.testimonial-text}
-What sets Allied apart is transparency. The real-time dashboards give us visibility we've never had before. No surprises, no excuses — just data and delivery.
+From the outset of the project through to delivery at Piccadilly Circus Lucent development, the lifting management team demonstrated a highly professional and collaborative approach. Operations were comprehensively planned and executed with disciplined supervision, robust compliance standards, and an uncompromising commitment to safety. A professional and dependable partner aligned with Tier 1 delivery standards.
 :::
 
 ::: {.testimonial-author}
-Operations Manager
+Richard Chapman, Site Manager
 :::
 ::: {.testimonial-role}
-London Developer
+Wates Construction
 :::
 :::
 ::::::
@@ -380,12 +380,33 @@ Piccadilly Circus, London
 ## Accreditations & Standards {.text-center .mb-4 style="color: #999; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.15em;"}
 
 ::: {.accreditation-strip}
-[CITB]{.accreditation-badge}
-[CPCS]{.accreditation-badge}
-[FORS]{.accreditation-badge}
-[CLOCS]{.accreditation-badge}
-[Safe Contractor]{.accreditation-badge}
-[LOLER]{.accreditation-badge}
+::: {.accreditation-badge}
+![CITB](/assets/images/accreditations/citb.png)
+:::
+::: {.accreditation-badge}
+![CPCS](/assets/images/accreditations/cpcs.png)
+:::
+::: {.accreditation-badge}
+![CSCS](/assets/images/accreditations/cscs.png)
+:::
+::: {.accreditation-badge}
+![FORS](/assets/images/accreditations/fors.svg)
+:::
+::: {.accreditation-badge}
+![CLOCS](/assets/images/accreditations/clocs.png)
+:::
+::: {.accreditation-badge}
+![Constructionline Gold](/assets/images/accreditations/constructionline.png)
+:::
+::: {.accreditation-badge}
+![SSIP](/assets/images/accreditations/ssip.png)
+:::
+::: {.accreditation-badge}
+![SafeContractor](/assets/images/accreditations/safecontractor.svg)
+:::
+::: {.accreditation-badge}
+![LOLER](/assets/images/accreditations/loler.svg)
+:::
 :::
 
 ::::

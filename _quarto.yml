@@ -34,8 +34,6 @@ website:
         href: services.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Brand Guidelines"
-        href: brand-guidelines.qmd
     right:
       - text: "Contact"
         href: contact.qmd
