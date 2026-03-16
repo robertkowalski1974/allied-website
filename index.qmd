@@ -308,7 +308,7 @@ Wates Construction
 London
 :::
 ::: {.project-tags}
-[Tower Cranes]{.tag} [Lifting Management]{.tag} [Appointed Person]{.tag}
+[Tower Management]{.tag} [Lifting Management]{.tag} [Appointed Person]{.tag}
 :::
 :::
 :::
@@ -324,7 +324,7 @@ London
 London
 :::
 ::: {.project-tags}
-[Tower Cranes]{.tag} [Slingers]{.tag} [24/7 Support]{.tag}
+[Tower Management]{.tag} [Slingers]{.tag} [24/7 Support]{.tag}
 :::
 :::
 :::
