@@ -899,6 +899,16 @@ main.content {
     padding: 3rem 1rem;
   }
 
+  // Ensure hero buttons have proper padding on mobile
+  .hero-section,
+  .hero-section-division,
+  .cta-banner {
+    .btn {
+      padding: 0.75rem 2rem;
+      display: inline-block;
+    }
+  }
+
   .testimonial-card {
     padding: 1.75rem;
   }
