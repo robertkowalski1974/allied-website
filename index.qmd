@@ -108,7 +108,7 @@ Years Experience
 [0]{.stat-number data-target="200" data-suffix="+"}
 
 ::: {.stat-label}
-Projects Delivered
+Collectively Projects Delivered
 :::
 :::
 ::::::
@@ -117,7 +117,7 @@ Projects Delivered
 [0]{.stat-number data-target="500" data-suffix="+"}
 
 ::: {.stat-label}
-Operatives Deployed
+Operatives Deployed/Managed
 :::
 :::
 ::::::
@@ -308,7 +308,7 @@ Wates Construction
 London
 :::
 ::: {.project-tags}
-[Tower Management]{.tag} [Lifting Management]{.tag} [Appointed Person]{.tag}
+[Tower Crane Management]{.tag} [Lifting Management]{.tag} [Contract Lifting]{.tag} [Appointed Person]{.tag} [Lifting Supervision]{.tag}
 :::
 :::
 :::
@@ -324,7 +324,7 @@ London
 London
 :::
 ::: {.project-tags}
-[Tower Management]{.tag} [Slingers]{.tag} [24/7 Support]{.tag}
+[Tower Crane Management]{.tag} [Auditing]{.tag} [Appointed Person]{.tag} [Lifting Supervision]{.tag} [Bespoke Accessories Hire]{.tag}
 :::
 :::
 :::
@@ -340,7 +340,7 @@ London
 Piccadilly Circus, London
 :::
 ::: {.project-tags}
-[Lifting Supervision]{.tag} [Auditing]{.tag} [Accessories]{.tag}
+[Tower Crane Management]{.tag} [Appointed Person]{.tag} [Operator Supply]{.tag} [Lifting Supervision/Slingers]{.tag} [Bespoke Accessories Hire]{.tag} [Auditing & Lifting Management]{.tag}
 :::
 :::
 :::
